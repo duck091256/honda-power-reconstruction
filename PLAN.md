@@ -19,3 +19,10 @@ Nguồn P + metadata + nhật ký → kiểm tra và chuẩn hóa UTC → Spark 
 **Rủi ro ảnh hưởng quyết định.** Thiếu bằng chứng đơn vị, timezone hoặc cách tạo tham chiếu sẽ chặn tính sai số Honda. Thiếu RAM/đĩa thì chia việc đọc theo tệp hoặc kỳ thời gian, ghi quy mô đã xử lý. Nếu rubric yêu cầu cluster, ghi ở T01 rồi bổ sung bước kiểm tra triển khai trên hạ tầng được cấp. Quy mô 57 kênh trong bài báo dùng để đối chiếu thiết kế.
 
 **Chỗ bắt đầu đọc.** Bài chính §3.1, §4.1–4.2 giải thích tham chiếu, điện năng và hai baseline. Phụ lục S1–S2, S7–S8 giải thích đơn vị, chia thời gian, cách báo chi phí và phạm vi tái tạo. Hai bản thảo trên máy chuẩn bị là [bài chính](/home/duck/Downloads/main_paper.md) và [phụ lục](/home/duck/Downloads/supplementary_material.md). Khi chuyển máy, đăng ký lại vị trí tài liệu và nguồn dữ liệu tại T01.
+
+T01–T02 chốt pilot bốn kênh điện trong quý I/2023 UTC trên bản nguồn cục bộ. ETL xử lý tuần tự trong ngân sách Spark local hai luồng và heap 512 MiB. Benchmark báo thời gian trên đúng panel pilot này. Rubric chính thức chưa có trong workspace. Xem [kiểm kê](docs/feasibility.md).
+
+T06 khóa giai đoạn sau 06-03-2023 UTC cho kỳ đánh giá và để riêng lát phát triển. Mỗi công tơ đóng góp tối đa 30 ca cho mỗi độ dài. Cấu hình và SHA-256 được lưu trước lượt chấm chính.
+
+## Giai đoạn 2 · T11–T15
+Kiểm kê theo bảng thiết bị Honda, mở rộng xử lý theo công tơ, đối chiếu pilot trước khi đo Spark local và DuckDB. Đo 3/6/12 tháng với 4 công tơ pilot, rồi tăng số kênh ở 12 tháng. T14 xử lý toàn bộ lịch sử P điện có metadata và nhật ký, có checkpoint theo kênh. T15 xuất demo và báo cáo số liệu thực đo.

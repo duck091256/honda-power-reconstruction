@@ -36,3 +36,17 @@
 Trên fixture tính tay, pipeline cho đúng khóa, khoảng UTC, số phút, cờ hợp lệ, dự đoán và đơn vị. Trên dữ liệu thật, khóa panel duy nhất, các ô che có tham chiếu, thay giá trị truth sau khi che không làm đổi dự đoán. Hai lần chạy cùng đầu vào/cấu hình khớp khóa, mặt nạ và số liệu trong dung sai đã đăng ký. Demo mở được từ một run lưu sẵn và hiển thị quan sát, đoạn che, hai ước lượng, tham chiếu cùng mẫu số. Kết luận về độ chính xác chỉ bao phủ các ca thực sự chấm được.
 
 Mở rộng như mô hình đa công tơ, khoảng dự báo và triển khai cluster sẽ cần câu hỏi và ngân sách riêng sau MVP. Lộ trình và sổ công việc nằm ở [PLAN.md](PLAN.md) và [TASK.md](TASK.md).
+
+## Phạm vi pilot v1 đã chốt ở T01–T02
+
+Nguồn là các quan sát trong tệp harmonized của H1.Z11, H1.Z12, H1.Z20, H1.Z24 trong quý I/2023 UTC. Giai đoạn harmonized chuẩn hóa đơn vị và dấu trước khi nhà cung cấp sửa lỗi hoặc điền. Giữ dấu của bản này. Một phút hợp lệ cần timestamp đúng đầu phút UTC và giá trị hữu hạn. Bất kỳ bản ghi lệch giây nào làm ô chứa nó không hợp lệ. Các ô không có hàng vẫn xuất hiện trong panel. Công suất ô là trung bình đại diện của 15 mẫu tức thời. kWh tính từ các ô là điện năng ước lượng có dấu.
+
+Đọc cả danh mục nhật ký tự động và tay. Áp nội dung tham chiếu URN chung hoặc đúng URN.P, với thời điểm đầu/cuối bao hàm và đệm 15 phút hai phía. Loại mọi ô có giao với đoạn đệm. Nhật ký theo trường năng lượng W hoặc đại lượng khác không được quy thành lỗi riêng của P. Đăng ký tệp và biên ở [sources_v1](configs/sources_v1.json).
+
+## Cấu hình đánh giá v1 đã khóa ở T06
+
+Lịch sử từ 01-01 đến trước 01-03-2023 UTC. Đánh giá từ 06-03 đến trước 01-04-2023 UTC. Để riêng lát T02–T04 khỏi kỳ chấm. Chọn tối đa 30 ca mỗi công tơ mỗi độ dài theo thứ tự SHA-256 seed 42. Các ô che trong cùng công tơ và cùng độ dài không trùng nhau. Các độ dài khác nhau có thể dùng chung thời điểm. Áp quy tắc, dung sai và ngân sách trong [evaluation_v1](configs/evaluation_v1.json). Spark đọc và dựng panel. Phần sinh ca, dự đoán, chấm và xuất bảng nhỏ dùng Python trên pilot đã giới hạn.
+
+Giai đoạn 2 dùng bảng 2 và 4 của Engel và cộng sự để xác định URN điện và đơn vị W. Nhật ký H1.Z19 ghi sai reference, nhật ký H3.ZE50/H3.ZE51 ghi sai tiền tố tòa nhà. Mục Manual specification của tác giả xác định đích tương ứng H1.Z19, H4.ZE50 và H4.ZE51; bảng nguồn chạy giữ hash các YAML gốc. Khi dùng timestamp harmonized, loại khỏi tham chiếu thời kỳ trước 01-04-2020 UTC của thiết bị ABB có rủi ro trôi đồng hồ gateway; giữ các hàng và thống kê lý do.
+
+T14 ghi lưới UTC theo biên quan sát của từng tệp kênh, làm tròn ra ngoài đến vạch 15 phút. Lịch sử cho Seasonal là [01-04-2020, 01-10-2023), kỳ chấm là [01-10-2023, 01-01-2024). Thiết kế chỉ che các đoạn có tham chiếu và hai biên hợp lệ. Tối đa 30 ca cho mỗi công tơ và độ dài. Số 57 trong bài chính §3.1 thuộc panel đã qua kiểm định của bài, trong đó có điều kiện tối thiểu 30 ngày quan sát ở giai đoạn fit. T11 đếm nguồn P trước khi xét điều kiện ô và ca của pipeline này.
