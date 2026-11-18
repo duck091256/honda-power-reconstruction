@@ -1,0 +1,81 @@
+{
+  "artifacts_sha256": {
+    "cost.json": "5c8d001d9661ff96149023bcba3050aa3f0de1be20a3f3cb2f754b09fe962762",
+    "partitioned/_SUCCESS": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "partitioned/year=2023/month=1/part-00000-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "c36c109b87079660cb6b6e34c30b7710e591e9cc74f5fdcfe366732e3c16099c",
+    "partitioned/year=2023/month=1/part-00001-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "6f326bcf410acc9f0a3fd5939fb7c6cb776a3d5f9263fde152a09a425d6ec0e9",
+    "partitioned/year=2023/month=2/part-00000-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "4b83d67931f8a6ca502c259347f168e12bed93aa9d1625dea9f0fb75cfdfd73d",
+    "partitioned/year=2023/month=2/part-00001-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "b6cb09b52a51706e17b2dfd5f16427daa271a27d9b2f658a7de2d2507e1ddbd6",
+    "partitioned/year=2023/month=3/part-00000-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "c4b480f310ef2856478a3675d298d8a6b38954b8919b368bb2e1697bc424c0bc",
+    "partitioned/year=2023/month=3/part-00001-b098873b-cd3a-423a-a049-689ad820d2dc.c000.snappy.parquet": "c07665f24aa86912bc23bb849dff64dc0cca4035ab3a1b74a2caf17e01edeecb",
+    "plain/_SUCCESS": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "plain/part-00000-13c3ad86-2715-48e4-9fcf-d2c4ca2167f5-c000.snappy.parquet": "544dee6ddd364cdde02c46afc68bdf9f345b1f7abc00544dd04b2ffc547531d6",
+    "plain/part-00001-13c3ad86-2715-48e4-9fcf-d2c4ca2167f5-c000.snappy.parquet": "45f244a47fed8175cbfc10d7db48b68e4c0a8383a7cdec8803625b80d10085f5"
+  },
+  "code_sha256": {
+    "src/honda/__init__.py": "95c3f1ee8acca2689aa0c063ff2a5e1309a9f6e721c39488d63bfa18dbe55e76",
+    "src/honda/__main__.py": "dd1edbe08208f960440586fd59e8aff6cb4b137b7ee5aa1ced73c654130d37be",
+    "src/honda/benchmark.py": "0010d2be1965f89e80e3d9cac155b75f4f5cfc1ff796a78a0fa9e2d94a1a8f41",
+    "src/honda/bundle.py": "7b1feee49ab8b4fe57eee4c1e2689a2331c7371d3d108aa56df8c74c5fb213d7",
+    "src/honda/cases.py": "20ec14c81a97e52870a9fba7a8aa0a0ae465c4da3412cc905d4091f42f28e5f3",
+    "src/honda/development.py": "8eae6f5ee99078d69ba22c4f34fae123bebbb425bcce6115110d82baf9aa523a",
+    "src/honda/evaluate.py": "090ae812a2ed0f97e620d9a9fb43a3da76de4628c3f7e6fa2ca33334bd3fcdde",
+    "src/honda/fixture.py": "c19a860fc103bc2e665a152b5ce9eb95eacc693f16464047a36f920aba2acdaf",
+    "src/honda/panel.py": "eb331f289d9c98e75630b75658c3a95f31cf6cf5cdbbe29a3e68cbb1b3d7d16f",
+    "src/honda/run.py": "1536a20b8221e6b84d6f379fa1f8d81052e89d18cbf3e0b2b14623c92779a819",
+    "src/honda/scoring.py": "ece96ff170e5e73f10397934096b6975a2e977beed838b36bfb171be6463a75e",
+    "src/honda/source.py": "37459001dbd26236c76cef0cc7a0999d909ff16b0373c25f2d03528f97fe7862"
+  },
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda",
+    "T08",
+    "--run",
+    "runs/t10_repeat_cost",
+    "--prior",
+    "t08_cost",
+    "--panel-run",
+    "runs/t10_repeat_panel",
+    "--eval-run",
+    "runs/t10_repeat_eval"
+  ],
+  "config_sha256": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+  "cpu_count": 16,
+  "cwd": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction",
+  "ended_utc": "2026-11-18T09:27:27.885160+00:00",
+  "id": "t10_repeat_cost",
+  "inputs": {
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_eval": {
+      "artifacts_sha256": {
+        "evaluation_config.json": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878"
+      },
+      "manifest_sha256": "a9c0a087e38669c2bfec6a2d560a04911919716c27da60a92a4ea9b3033f96af"
+    },
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_panel": {
+      "artifacts_sha256": {
+        "panel_15m/_SUCCESS": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "panel_15m/part-00000-11fed184-650b-4e1a-993d-d3f3e6b56596-c000.snappy.parquet": "8d49e0a307be26534082884d19f4f544a5334185f8408278f64edd882e18797d",
+        "source_manifest.json": "d99fdb025ecf9d984ca5f081aadb985156c9af4103e33b19f1fad4679021ccab"
+      },
+      "manifest_sha256": "8081a2ea2b06ac516d2523a606d5c04e046488e09f1bd148e660cfd196213af3"
+    }
+  },
+  "panel_digest": "1ef9050d4f517236121bcf028f7e020ae74b31dd2fb255a73bd81868d46e5de7",
+  "panel_rows": 34560,
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "prior_run": "t08_cost",
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "query_rows": 1344,
+  "spark": {
+    "heap_max_bytes": 536870912,
+    "java_version": "21.0.13+9-LTS",
+    "master": "local[2]",
+    "shuffle_partitions": "4",
+    "timezone": "UTC",
+    "version": "4.0.1"
+  },
+  "started_utc": "2026-11-18T09:27:16.424130+00:00",
+  "status": "OK",
+  "task": "T08"
+}

@@ -1,0 +1,31 @@
+{
+  "baseline": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t09_demo",
+  "evaluation_hash": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+  "float_tolerance": {
+    "absolute": 1e-08,
+    "relative": 1e-12
+  },
+  "matching_exact": [
+    "source_manifest.json",
+    "coverage.csv",
+    "selected_counts.csv",
+    "candidate_counts.csv",
+    "fallback_counts.csv",
+    "cases.csv",
+    "candidate_audit.csv"
+  ],
+  "matching_with_tolerance": [
+    "masked.json",
+    "summary.json",
+    "truth.csv",
+    "predictions.csv",
+    "case_scores.csv",
+    "panel_15m",
+    "history.csv"
+  ],
+  "panel_digest_exact": true,
+  "panel_rows": 34560,
+  "query_digest_exact": true,
+  "query_rows": 1344,
+  "repeat": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_demo"
+}

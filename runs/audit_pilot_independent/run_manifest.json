@@ -1,0 +1,101 @@
+{
+  "checked_case_scores": 720,
+  "checked_cases": 360,
+  "checked_panel_rows": 34560,
+  "checked_predictions": 6960,
+  "checked_summary_rows": 6,
+  "checked_truth": 3480,
+  "checksums": {
+    "configs/sources_v1.json": "1091e1c9731c3948b91b9038f97235d6db73df4e96fdb1f8f4a6829a08b105c1",
+    "runs/audit_pilot_independent/verify.py": "fb7d4e1ba77ff6b42e3045a19803974b2ffaffa6d9729e1ecc24174e4ad0fde7",
+    "runs/t05_pilot/run_manifest.json": "cd9b40da8f90b63c7e0bdc571a5794935279dfe77b8a082a4d55376a2997e32e",
+    "runs/t06_locked/evaluation_config.json": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+    "runs/t06_locked/run_manifest.json": "1184b9b0940c703b7ab04820ccdb8fb85085b37c48f7727da8e59c7051804776",
+    "runs/t07_honda/run_manifest.json": "f9afa8fac30ba1b85f6aa779136f1a7ca0c07fda9b10b23d0b7ca8e1c4c66c36"
+  },
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.runtime/repro-env/bin/python",
+    "runs/audit_pilot_independent/verify.py",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset"
+  ],
+  "ended_utc": "2026-11-18T09:41:39.948780+00:00",
+  "input_hashes": {
+    "data/H1.Z11/H1.Z11.P_harmonized.csv.gz": "d57ab2ff1bb4f86531c28575229de0fc99f447c767349b3e0a347217d5a9ccaf",
+    "data/H1.Z11/H1.Z11.P_raw.csv.gz": "bacbf3e9a51866432f4dff96453eb827f3e5507771a0a4b72d2da25cf38eb055",
+    "data/H1.Z12/H1.Z12.P_harmonized.csv.gz": "e5f0161116d22eb47fa0c4e595c2a3bc9881e92ee1a5a70f0aecd03825255610",
+    "data/H1.Z12/H1.Z12.P_raw.csv.gz": "9dbd15125a21a66aa5c9a68e594e49c8fc6f034d3a8a7e15d52b1aebc404edec",
+    "data/H1.Z20/H1.Z20.P_harmonized.csv.gz": "eaa87108e564adc4fa395764c5b45607122697ee62691fd1edcb564c5eedd1d8",
+    "data/H1.Z20/H1.Z20.P_raw.csv.gz": "70ecd350035f045b44d58e44e111d503a153c42d410b54e77ab36bdfbd47fce0",
+    "data/H1.Z24/H1.Z24.P_harmonized.csv.gz": "5e39b2af741be5096510f0ffd24c505ec63d45edf4536506833414dbd78ca6fd",
+    "data/H1.Z24/H1.Z24.P_raw.csv.gz": "f086e11ccbe303d1e78647dae14f1c57132c7b60402b4747aba636c2ee10e8fa",
+    "issues/automatic_issues/H1.Z11_issues_automatic.yaml": "72334ed0ccf5380311f6b27b6f37cedddbfc8b9114fbd78e0e36ca1468ac9660",
+    "issues/automatic_issues/H1.Z12_issues_automatic.yaml": "3bbc422820a90f4bba447b3ed8adbeedccdf092890a26c303681d95e26eb936d",
+    "issues/automatic_issues/H1.Z20_issues_automatic.yaml": "eda89cc305eb464efdb41c0525e4c260fe238432a5a47201a60a3631a6e584f5",
+    "issues/automatic_issues/H1.Z24_issues_automatic.yaml": "867c853d9a3f0725cbf63b188433be8408fccbf164c0aa894e8b82666900fd87",
+    "issues/manual_issues/H1.Z19_issues_manual.yaml": "b207a938737f8e7e66db57cfd540ee7638c0b9ad3cd7dee46c062dd860d8fff4",
+    "issues/manual_issues/H2.T.Z33_issues_manual.yaml": "976616fb96ef065cbe759307d8514afe46f2e6d969c9434193cba94383052026",
+    "issues/manual_issues/H2.Z311_issues_manual.yaml": "4b39ffce0e122ad869b158957fbd0d650e8ac42f67b1309095c5267f6548da62",
+    "issues/manual_issues/H3.ZE50_issues_manual.yaml": "723f2e83f8663a6d411018b1c6e4cadb6a919fa71067105d343eda488c59b32c",
+    "issues/manual_issues/H3.ZE51_issues_manual.yaml": "30b8d4090497f1dd99283810be4b8edb3c6629d7a4e1411a01cd19542d0d645b",
+    "issues/manual_issues/V.K21_issues_manual.yaml": "00edeb03f1f3f8f6fd35d8852b605bd2d30f1f331e36b5314d670d141568a7b8"
+  },
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "source": "/run/media/duck/New Volume/Vice - Download/Honda_Dataset",
+  "source_cross_check": {
+    "H1.Z11": {
+      "panel_reasons": {
+        "issue_interval": 3,
+        "missing_minute": 369,
+        "off_minute_grid": 54,
+        "valid": 8214
+      },
+      "raw_lineage": {
+        "raw_same": 129201
+      },
+      "scanned": 3017983,
+      "selected": 129201
+    },
+    "H1.Z12": {
+      "panel_reasons": {
+        "issue_interval": 3,
+        "missing_minute": 358,
+        "off_minute_grid": 54,
+        "valid": 8225
+      },
+      "raw_lineage": {
+        "raw_same": 129220
+      },
+      "scanned": 3044361,
+      "selected": 129220
+    },
+    "H1.Z20": {
+      "panel_reasons": {
+        "issue_interval": 3,
+        "missing_minute": 89,
+        "off_minute_grid": 54,
+        "valid": 8494
+      },
+      "raw_lineage": {
+        "raw_same": 5,
+        "raw_sign_reversed": 129480
+      },
+      "scanned": 3052942,
+      "selected": 129485
+    },
+    "H1.Z24": {
+      "panel_reasons": {
+        "issue_interval": 3,
+        "missing_minute": 250,
+        "off_minute_grid": 54,
+        "valid": 8333
+      },
+      "raw_lineage": {
+        "raw_same": 129332
+      },
+      "scanned": 3048085,
+      "selected": 129332
+    }
+  },
+  "started_utc": "2026-11-18T09:41:16.068568+00:00",
+  "status": "OK"
+}

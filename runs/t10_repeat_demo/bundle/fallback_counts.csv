@@ -1,0 +1,7 @@
+n_bins,method,level_or_reason,bins
+1,Linear,not_applicable,120
+1,Seasonal,weekday_slot,120
+4,Linear,not_applicable,480
+4,Seasonal,weekday_slot,480
+24,Linear,not_applicable,2880
+24,Seasonal,weekday_slot,2880

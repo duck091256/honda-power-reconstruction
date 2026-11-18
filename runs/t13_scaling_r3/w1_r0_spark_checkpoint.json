@@ -1,0 +1,42 @@
+[
+  {
+    "bins": 8640,
+    "etl_s": 0.019799650999630103,
+    "ingest_s": 0.3918235900000582,
+    "meter": "H1.Z11",
+    "panel_sha256": "ef2eb08e236f59b2c20af341d95dc91ce5a6fdfb0c2b6f886ba2cb5931e8e43f",
+    "scanned": 3017983,
+    "selected": 129201,
+    "valid": 8214
+  },
+  {
+    "bins": 8640,
+    "etl_s": 0.01886056799958169,
+    "ingest_s": 0.3856993629997305,
+    "meter": "H1.Z12",
+    "panel_sha256": "bddf89649458dc431e9cb116af70414179097b46c22df114648e269c51f63ee7",
+    "scanned": 3044361,
+    "selected": 129220,
+    "valid": 8225
+  },
+  {
+    "bins": 8640,
+    "etl_s": 0.014784075001443853,
+    "ingest_s": 0.2213866459987912,
+    "meter": "H1.Z20",
+    "panel_sha256": "691063dd714359a6f84dcd37a8c625925b174598df330492e18cf6fb98070e17",
+    "scanned": 3052942,
+    "selected": 129485,
+    "valid": 8494
+  },
+  {
+    "bins": 8640,
+    "etl_s": 0.015866206000282546,
+    "ingest_s": 0.22354685199934465,
+    "meter": "H1.Z24",
+    "panel_sha256": "8aa8e52c7c64c3525c387c74c070b26c16af8a714e6e10feae1646df88811957",
+    "scanned": 3048085,
+    "selected": 129332,
+    "valid": 8333
+  }
+]

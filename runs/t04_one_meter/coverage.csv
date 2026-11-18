@@ -1,0 +1,5 @@
+meter_id,month_utc,reason,bins,input_rows
+H1.Z20,2023-03,issue_interval,3,35
+H1.Z20,2023-03,missing_minute,1,14
+H1.Z20,2023-03,off_minute_grid,2,30
+H1.Z20,2023-03,valid,186,2790

@@ -1,0 +1,24 @@
+{
+  "hashes": {
+    "candidate_counts.csv": "f019c54c95d4fb88782f0212c405847f26e735f5585cc417527c38f98ba0c390",
+    "case_scores.csv": "7c454ba95b6bb383e1669a114c18a2f4abcd55b247addcccecf1fbfd3beba893",
+    "cost.json": "5c8d001d9661ff96149023bcba3050aa3f0de1be20a3f3cb2f754b09fe962762",
+    "coverage.csv": "566941b3c4c48f5ff0becf29eee0d8029ef7aef8e0315eb0f5282a4d396eaa6c",
+    "evaluation_config.json": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+    "fallback_counts.csv": "68d71d52f589e730277500b7b39d3f769031d49bd743385ba4c92cfdadce19e8",
+    "masked.json": "7ec17b5e55f90b4f7d200d9ff5d5f252a459667092a7658d21686d080a5a7efe",
+    "predictions.csv": "855d2ac494cefe8aab6aefbecdd32e69b2ca393a282deb82e2af045d7d6e9b4e",
+    "selected_counts.csv": "84b09cd3529b16e17d25fe0de2e6761e938cfc26b1c5172c7f9ccda91b0f957b",
+    "source_manifest.json": "d99fdb025ecf9d984ca5f081aadb985156c9af4103e33b19f1fad4679021ccab",
+    "summary.json": "cfd27e292a773bb08f2cbcb3d902ea141dff31df929d2104ed524d42d3202b03",
+    "truth.csv": "325a82ce60595f64528db25a568eb0dc29c344c34888f17f3d58d8dd72457296"
+  },
+  "kind": "honda",
+  "run_id": "t10_repeat_demo",
+  "upstream_runs": {
+    "T05": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_panel",
+    "T06": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_eval",
+    "T07": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_score",
+    "T08": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_cost"
+  }
+}

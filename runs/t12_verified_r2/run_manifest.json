@@ -1,0 +1,78 @@
+{
+  "artifacts_sha256": {
+    "candidate_counts.csv": "f019c54c95d4fb88782f0212c405847f26e735f5585cc417527c38f98ba0c390",
+    "case_scores.csv": "e2beb50ff51dee6fcf357242c38b82b803db55f3bbf12387299d7602f7f9632c",
+    "cases.csv": "36d2f279d3c9d665d587d33910ff9dd675712ef6196e8eb560bab6c6beb10258",
+    "masked.json": "bd94ffb5f3bffc537f15695eb97b9d9e410d4b5e2c984e09c2a26b2ebb40a616",
+    "metrics_by_meter.json": "648c28ce55733549f1f8d001d6dea8685b99d080742b59cb22ec81e51598ecc7",
+    "panel/H1.Z11.parquet": "ef2eb08e236f59b2c20af341d95dc91ce5a6fdfb0c2b6f886ba2cb5931e8e43f",
+    "panel/H1.Z12.parquet": "bddf89649458dc431e9cb116af70414179097b46c22df114648e269c51f63ee7",
+    "panel/H1.Z20.parquet": "691063dd714359a6f84dcd37a8c625925b174598df330492e18cf6fb98070e17",
+    "panel/H1.Z24.parquet": "8aa8e52c7c64c3525c387c74c070b26c16af8a714e6e10feae1646df88811957",
+    "panel_checkpoint.json": "e3c3e89945499f759b9af7036c08a41337c8cb931306d4a479df19d31a980ad3",
+    "predictions.csv": "4b1e0bb02b8fef6561de17afd035e985e7dd7fdc71ae68c7793f745e9bcf3970",
+    "selected_counts.csv": "84b09cd3529b16e17d25fe0de2e6761e938cfc26b1c5172c7f9ccda91b0f957b",
+    "summary.json": "c02c3df336384b49b6055aae31a9551b7f55804f34c669b4fb70a36aeaf6c629",
+    "truth.csv": "001dec0483c2ca54fdad724f39d91d56760fbe7db439aa6a7a3d3bda5b80b194"
+  },
+  "code_sha256": {
+    "src/honda/__init__.py": "95c3f1ee8acca2689aa0c063ff2a5e1309a9f6e721c39488d63bfa18dbe55e76",
+    "src/honda/__main__.py": "4665dbf170ec7a140a77664b50b2d81dae03e902326731fbc582db93cb544eb6",
+    "src/honda/benchmark.py": "0010d2be1965f89e80e3d9cac155b75f4f5cfc1ff796a78a0fa9e2d94a1a8f41",
+    "src/honda/bundle.py": "7b1feee49ab8b4fe57eee4c1e2689a2331c7371d3d108aa56df8c74c5fb213d7",
+    "src/honda/cases.py": "20ec14c81a97e52870a9fba7a8aa0a0ae465c4da3412cc905d4091f42f28e5f3",
+    "src/honda/development.py": "8eae6f5ee99078d69ba22c4f34fae123bebbb425bcce6115110d82baf9aa523a",
+    "src/honda/evaluate.py": "090ae812a2ed0f97e620d9a9fb43a3da76de4628c3f7e6fa2ca33334bd3fcdde",
+    "src/honda/fixture.py": "c19a860fc103bc2e665a152b5ce9eb95eacc693f16464047a36f920aba2acdaf",
+    "src/honda/inventory.py": "58a6dba339e84d5a204aec8dc1bb5ae1a1d541b0d80346c0328f1f062f6d1dff",
+    "src/honda/panel.py": "eb331f289d9c98e75630b75658c3a95f31cf6cf5cdbbe29a3e68cbb1b3d7d16f",
+    "src/honda/reproduce.py": "46dfd1ea4fa26a17d76ae4ab08c339b09688d9c2d4f9428f6db131f21fde501b",
+    "src/honda/run.py": "1536a20b8221e6b84d6f379fa1f8d81052e89d18cbf3e0b2b14623c92779a819",
+    "src/honda/scale.py": "14613cbfa05c956abb9bad9d741b0f5521dc40760ddcc9d2410ca34278096eb7",
+    "src/honda/scale_benchmark.py": "806460d678142fcfe9632423f02aca08d273cfabe971d5ff30dea8aae8f5eafd",
+    "src/honda/scale_eval.py": "29490feba93c979c0a2bc528d152dde8a00a4797a22c500ee757b4269b9db26c",
+    "src/honda/scoring.py": "ece96ff170e5e73f10397934096b6975a2e977beed838b36bfb171be6463a75e",
+    "src/honda/source.py": "37459001dbd26236c76cef0cc7a0999d909ff16b0373c25f2d03528f97fe7862"
+  },
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda.scale",
+    "T12",
+    "runs/t12_verified_r2",
+    "--prior",
+    "t12_verified"
+  ],
+  "config_sha256": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+  "cpu_count": 16,
+  "cwd": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction",
+  "ended_utc": "2026-11-18T10:06:29.854459+00:00",
+  "id": "t12_verified_r2",
+  "inputs": {
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t11_inventory": {
+      "artifacts_sha256": {
+        "sources.json": "4a15f77366fc3c12afce5d676a5353c4b0b9c44622561535c2d516e785aa4834"
+      },
+      "manifest_sha256": "bcdd97d785af0acbfadb0f7975c5fac0898afd712914d7e84b124424a555c1f3"
+    }
+  },
+  "pilot_panel_matches": 34560,
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "predictions": 6960,
+  "prior_run": "t12_verified",
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "scenario_meters": 4,
+  "selected_cases": 360,
+  "spark": {
+    "heap_max_bytes": 536870912,
+    "java_version": "21.0.13+9-LTS",
+    "master": "local[2]",
+    "shuffle_partitions": "4",
+    "timezone": "UTC",
+    "version": "4.0.1"
+  },
+  "started_utc": "2026-11-18T10:06:23.336442+00:00",
+  "status": "OK",
+  "task": "T12",
+  "truth_rows": 3480
+}

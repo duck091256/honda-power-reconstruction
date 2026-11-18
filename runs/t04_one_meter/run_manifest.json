@@ -1,0 +1,72 @@
+{
+  "artifacts_sha256": {
+    "case_scores.csv": "0b10044e223102514fa51882937ff65fba16736a6ef4abe2e2eeed664be6cc80",
+    "coverage.csv": "db3c96e50fca3a93ab41a7b2f457ccd559d1d4785f8d2eb5319b5ea1ad4ff018",
+    "issue_bins.csv": "bd57dcb292f86aa0ab22b473e67848a86c6d8e5e9a81f283c895c94128e9907f",
+    "issues.csv": "f7376749aaa02b9413028ec49187738693b3543546cc73b79e2714b16c842657",
+    "masked.json": "8f9b8e8b49a780e2aa194122cf48d5caf7f4db146ca7d1c870268f334d7e4e37",
+    "panel_15m/_SUCCESS": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "panel_15m/part-00000-630d7139-661c-44ad-b734-e6415d3d6c36-c000.snappy.parquet": "d0d2d372002d1561662a79e622d167b34074cb91e9b34b52d10a0d8f828f2bf6",
+    "panel_15m/part-00001-630d7139-661c-44ad-b734-e6415d3d6c36-c000.snappy.parquet": "b413d4ce6708e875bac3051c0f5c029e38e129e2e49c5c7fd604ea7555108bc9",
+    "predictions.csv": "979a2863de8d11e8c4e87c7e467d1bd0a3a014a41260c7f507af5814868256f7",
+    "source_H1.Z20.csv": "666dd74b039c2dec6ca7fcd82e14548200639a969c2c85c689330d2f8ee18269",
+    "source_manifest.json": "d26f003e7bb1023ddce4f81d51c8ecafb7777f0bf8332efff99f480e1169903b",
+    "truth.csv": "7b789efe5e90b334e6351f3581b57037cc3f177f681bccba0d5560da5770ce03"
+  },
+  "case_count": 1,
+  "code_sha256": {
+    "src/honda/__init__.py": "95c3f1ee8acca2689aa0c063ff2a5e1309a9f6e721c39488d63bfa18dbe55e76",
+    "src/honda/__main__.py": "0fd81df5e1be8ae0e6bd27ae839aa95ebed079e5741ff3726485bf97930d8f48",
+    "src/honda/development.py": "ad3e94ec001d66e8e2fb39fd951524ecb9ae23aa5e10144befaebb9734964822",
+    "src/honda/evaluate.py": "090ae812a2ed0f97e620d9a9fb43a3da76de4628c3f7e6fa2ca33334bd3fcdde",
+    "src/honda/fixture.py": "c19a860fc103bc2e665a152b5ce9eb95eacc693f16464047a36f920aba2acdaf",
+    "src/honda/panel.py": "eb331f289d9c98e75630b75658c3a95f31cf6cf5cdbbe29a3e68cbb1b3d7d16f",
+    "src/honda/run.py": "1536a20b8221e6b84d6f379fa1f8d81052e89d18cbf3e0b2b14623c92779a819",
+    "src/honda/source.py": "37459001dbd26236c76cef0cc7a0999d909ff16b0373c25f2d03528f97fe7862"
+  },
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda",
+    "T04",
+    "--run",
+    "runs/t04_one_meter",
+    "--source-root",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset"
+  ],
+  "config_sha256": "1091e1c9731c3948b91b9038f97235d6db73df4e96fdb1f8f4a6829a08b105c1",
+  "cpu_count": 16,
+  "cwd": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction",
+  "ended_utc": "2026-11-18T09:15:26.187922+00:00",
+  "fixture_unit_check": "1000 W for 1 h = 1 kWh",
+  "id": "t04_one_meter",
+  "panel_rows": 192,
+  "parquet_bytes": 11132,
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "prior_run": null,
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "row_counts": {
+    "H1.Z20": {
+      "off_grid": 2,
+      "scanned": 3052942,
+      "selected": 2869
+    }
+  },
+  "scope": [
+    "2023-03-03T00:00:00Z",
+    "2023-03-05T00:00:00Z"
+  ],
+  "source_manifest_sha256": "d26f003e7bb1023ddce4f81d51c8ecafb7777f0bf8332efff99f480e1169903b",
+  "spark": {
+    "heap_max_bytes": 536870912,
+    "java_version": "21.0.13+9-LTS",
+    "master": "local[2]",
+    "shuffle_partitions": "4",
+    "timezone": "UTC",
+    "version": "4.0.1"
+  },
+  "started_utc": "2026-11-18T09:15:09.091974+00:00",
+  "status": "OK",
+  "task": "T04",
+  "valid_bins": 186
+}

@@ -1,0 +1,7 @@
+meter_id,month_utc,reason,bins,input_rows
+fixture,2023-01,conflicting_duplicate,1,16
+fixture,2023-01,issue_interval,1,15
+fixture,2023-01,missing_minute,2,14
+fixture,2023-01,nonfinite,1,15
+fixture,2023-01,off_minute_grid,1,16
+fixture,2023-01,valid,2,31

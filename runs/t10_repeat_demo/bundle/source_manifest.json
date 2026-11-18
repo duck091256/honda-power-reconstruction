@@ -1,0 +1,111 @@
+{
+  "end_us": 1680307200000000,
+  "kind": "honda",
+  "manual_catalog": {
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/H1.Z19_issues_manual.yaml": "b207a938737f8e7e66db57cfd540ee7638c0b9ad3cd7dee46c062dd860d8fff4",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/H2.T.Z33_issues_manual.yaml": "976616fb96ef065cbe759307d8514afe46f2e6d969c9434193cba94383052026",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/H2.Z311_issues_manual.yaml": "4b39ffce0e122ad869b158957fbd0d650e8ac42f67b1309095c5267f6548da62",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/H3.ZE50_issues_manual.yaml": "723f2e83f8663a6d411018b1c6e4cadb6a919fa71067105d343eda488c59b32c",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/H3.ZE51_issues_manual.yaml": "30b8d4090497f1dd99283810be4b8edb3c6629d7a4e1411a01cd19542d0d645b",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/manual_issues/V.K21_issues_manual.yaml": "00edeb03f1f3f8f6fd35d8852b605bd2d30f1f331e36b5314d670d141568a7b8"
+  },
+  "meters": [
+    {
+      "bytes_power_gzip": 15966206,
+      "issue_bins": 3,
+      "issues_in_scope": 1,
+      "license": "CC0-1.0",
+      "measurement": "total active electrical power",
+      "metadata": "https://arxiv.org/html/2503.11469v1",
+      "meter_id": "H1.Z11",
+      "paths": {
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/data/H1.Z11/H1.Z11.P_harmonized.csv.gz": "d57ab2ff1bb4f86531c28575229de0fc99f447c767349b3e0a347217d5a9ccaf",
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/automatic_issues/H1.Z11_issues_automatic.yaml": "72334ed0ccf5380311f6b27b6f37cedddbfc8b9114fbd78e0e36ca1468ac9660"
+      },
+      "row_counts": {
+        "off_grid": 54,
+        "scanned": 3017983,
+        "selected": 129201
+      },
+      "source_id": "H1.Z11:d57ab2ff1bb4f865",
+      "source_stage": "harmonized",
+      "timezone": "UTC",
+      "unit": "W",
+      "uri": "https://doi.org/10.5061/dryad.73n5tb363",
+      "version": "local extracted copy; companion README lists 2025-02-26 update"
+    },
+    {
+      "bytes_power_gzip": 16182755,
+      "issue_bins": 3,
+      "issues_in_scope": 1,
+      "license": "CC0-1.0",
+      "measurement": "total active electrical power",
+      "metadata": "https://arxiv.org/html/2503.11469v1",
+      "meter_id": "H1.Z12",
+      "paths": {
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/data/H1.Z12/H1.Z12.P_harmonized.csv.gz": "e5f0161116d22eb47fa0c4e595c2a3bc9881e92ee1a5a70f0aecd03825255610",
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/automatic_issues/H1.Z12_issues_automatic.yaml": "3bbc422820a90f4bba447b3ed8adbeedccdf092890a26c303681d95e26eb936d"
+      },
+      "row_counts": {
+        "off_grid": 54,
+        "scanned": 3044361,
+        "selected": 129220
+      },
+      "source_id": "H1.Z12:e5f0161116d22eb4",
+      "source_stage": "harmonized",
+      "timezone": "UTC",
+      "unit": "W",
+      "uri": "https://doi.org/10.5061/dryad.73n5tb363",
+      "version": "local extracted copy; companion README lists 2025-02-26 update"
+    },
+    {
+      "bytes_power_gzip": 18465597,
+      "issue_bins": 3,
+      "issues_in_scope": 1,
+      "license": "CC0-1.0",
+      "measurement": "total active electrical power",
+      "metadata": "https://arxiv.org/html/2503.11469v1",
+      "meter_id": "H1.Z20",
+      "paths": {
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/data/H1.Z20/H1.Z20.P_harmonized.csv.gz": "eaa87108e564adc4fa395764c5b45607122697ee62691fd1edcb564c5eedd1d8",
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/automatic_issues/H1.Z20_issues_automatic.yaml": "eda89cc305eb464efdb41c0525e4c260fe238432a5a47201a60a3631a6e584f5"
+      },
+      "row_counts": {
+        "off_grid": 54,
+        "scanned": 3052942,
+        "selected": 129485
+      },
+      "source_id": "H1.Z20:eaa87108e564adc4",
+      "source_stage": "harmonized",
+      "timezone": "UTC",
+      "unit": "W",
+      "uri": "https://doi.org/10.5061/dryad.73n5tb363",
+      "version": "local extracted copy; companion README lists 2025-02-26 update"
+    },
+    {
+      "bytes_power_gzip": 16105415,
+      "issue_bins": 3,
+      "issues_in_scope": 1,
+      "license": "CC0-1.0",
+      "measurement": "total active electrical power",
+      "metadata": "https://arxiv.org/html/2503.11469v1",
+      "meter_id": "H1.Z24",
+      "paths": {
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/data/H1.Z24/H1.Z24.P_harmonized.csv.gz": "5e39b2af741be5096510f0ffd24c505ec63d45edf4536506833414dbd78ca6fd",
+        "/run/media/duck/New Volume/Vice - Download/Honda_Dataset/issues/automatic_issues/H1.Z24_issues_automatic.yaml": "867c853d9a3f0725cbf63b188433be8408fccbf164c0aa894e8b82666900fd87"
+      },
+      "row_counts": {
+        "off_grid": 54,
+        "scanned": 3048085,
+        "selected": 129332
+      },
+      "source_id": "H1.Z24:5e39b2af741be509",
+      "source_stage": "harmonized",
+      "timezone": "UTC",
+      "unit": "W",
+      "uri": "https://doi.org/10.5061/dryad.73n5tb363",
+      "version": "local extracted copy; companion README lists 2025-02-26 update"
+    }
+  ],
+  "start_us": 1672531200000000
+}

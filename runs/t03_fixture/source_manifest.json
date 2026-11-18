@@ -1,0 +1,14 @@
+{
+  "end_us": 1672538400000000,
+  "kind": "fixture_mo_phong",
+  "meters": [
+    {
+      "meter_id": "fixture",
+      "row_counts": {
+        "selected": 107
+      },
+      "source_id": "synthetic"
+    }
+  ],
+  "start_us": 1672531200000000
+}

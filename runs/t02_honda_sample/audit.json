@@ -1,0 +1,11 @@
+{
+  "excluded_issue_bins": 3,
+  "longest_end_exclusive_utc": "2023-03-05T00:00:00Z",
+  "longest_start_utc": "2023-03-03T13:45:00Z",
+  "longest_valid_bins": 137,
+  "minute_counts": {
+    "missing_minute": 13,
+    "observed": 2867
+  },
+  "supports_6h_with_edges": true
+}

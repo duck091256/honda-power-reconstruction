@@ -1,0 +1,63 @@
+{
+  "artifacts_sha256": {
+    "case_scores.csv": "7c454ba95b6bb383e1669a114c18a2f4abcd55b247addcccecf1fbfd3beba893",
+    "fallback_counts.csv": "68d71d52f589e730277500b7b39d3f769031d49bd743385ba4c92cfdadce19e8",
+    "predictions.csv": "855d2ac494cefe8aab6aefbecdd32e69b2ca393a282deb82e2af045d7d6e9b4e",
+    "summary.csv": "85c7d4f0e523807756c5693c15fa7888bd4c49928dce9407176dd490c90a2484",
+    "summary.json": "cfd27e292a773bb08f2cbcb3d902ea141dff31df929d2104ed524d42d3202b03"
+  },
+  "case_count": 360,
+  "case_score_rows": 720,
+  "changed_truth_leaves_predictions_identical": true,
+  "code_sha256": {
+    "src/honda/__init__.py": "95c3f1ee8acca2689aa0c063ff2a5e1309a9f6e721c39488d63bfa18dbe55e76",
+    "src/honda/__main__.py": "dd1edbe08208f960440586fd59e8aff6cb4b137b7ee5aa1ced73c654130d37be",
+    "src/honda/benchmark.py": "0010d2be1965f89e80e3d9cac155b75f4f5cfc1ff796a78a0fa9e2d94a1a8f41",
+    "src/honda/bundle.py": "7b1feee49ab8b4fe57eee4c1e2689a2331c7371d3d108aa56df8c74c5fb213d7",
+    "src/honda/cases.py": "20ec14c81a97e52870a9fba7a8aa0a0ae465c4da3412cc905d4091f42f28e5f3",
+    "src/honda/development.py": "8eae6f5ee99078d69ba22c4f34fae123bebbb425bcce6115110d82baf9aa523a",
+    "src/honda/evaluate.py": "090ae812a2ed0f97e620d9a9fb43a3da76de4628c3f7e6fa2ca33334bd3fcdde",
+    "src/honda/fixture.py": "c19a860fc103bc2e665a152b5ce9eb95eacc693f16464047a36f920aba2acdaf",
+    "src/honda/panel.py": "eb331f289d9c98e75630b75658c3a95f31cf6cf5cdbbe29a3e68cbb1b3d7d16f",
+    "src/honda/run.py": "1536a20b8221e6b84d6f379fa1f8d81052e89d18cbf3e0b2b14623c92779a819",
+    "src/honda/scoring.py": "ece96ff170e5e73f10397934096b6975a2e977beed838b36bfb171be6463a75e",
+    "src/honda/source.py": "37459001dbd26236c76cef0cc7a0999d909ff16b0373c25f2d03528f97fe7862"
+  },
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda",
+    "T07",
+    "--run",
+    "runs/t10_repeat_score",
+    "--prior",
+    "t07_honda",
+    "--eval-run",
+    "runs/t10_repeat_eval"
+  ],
+  "config_sha256": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+  "cpu_count": 16,
+  "cwd": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction",
+  "ended_utc": "2026-11-18T09:27:16.391604+00:00",
+  "id": "t10_repeat_score",
+  "inputs": {
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t10_repeat_eval": {
+      "artifacts_sha256": {
+        "evaluation_config.json": "23e20146c0854549db87128906e7d7500651b7c96c685b58474e4ba41dce4878",
+        "history.csv": "67003af525a11054f3aab73a90855c6c39571972897c5077d8150d32bd006461",
+        "masked.json": "7ec17b5e55f90b4f7d200d9ff5d5f252a459667092a7658d21686d080a5a7efe",
+        "selected_counts.csv": "84b09cd3529b16e17d25fe0de2e6761e938cfc26b1c5172c7f9ccda91b0f957b",
+        "truth.csv": "325a82ce60595f64528db25a568eb0dc29c344c34888f17f3d58d8dd72457296"
+      },
+      "manifest_sha256": "a9c0a087e38669c2bfec6a2d560a04911919716c27da60a92a4ea9b3033f96af"
+    }
+  },
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "prediction_rows": 6960,
+  "prior_run": "t07_honda",
+  "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+  "seed": 42,
+  "started_utc": "2026-11-18T09:27:16.159761+00:00",
+  "status": "OK",
+  "task": "T07"
+}

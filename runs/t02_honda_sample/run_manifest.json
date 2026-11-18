@@ -1,0 +1,41 @@
+{
+  "code_sha256": {
+    "src/honda/__init__.py": "95c3f1ee8acca2689aa0c063ff2a5e1309a9f6e721c39488d63bfa18dbe55e76",
+    "src/honda/__main__.py": "3e93cb134788b9335f31b75425ea80010fb09aa7fe2d3b8ed26f45c63551eaf0",
+    "src/honda/run.py": "add49fc1ce3ed94fda04de134b46fb630f82098154c26a677b4b244b0d35e454",
+    "src/honda/source.py": "37459001dbd26236c76cef0cc7a0999d909ff16b0373c25f2d03528f97fe7862"
+  },
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "honda",
+    "T02",
+    "--run",
+    "runs/t02_honda_sample",
+    "--source-root",
+    "/run/media/duck/New Volume/Vice - Download/Honda_Dataset"
+  ],
+  "config_sha256": "1091e1c9731c3948b91b9038f97235d6db73df4e96fdb1f8f4a6829a08b105c1",
+  "cpu_count": 16,
+  "cwd": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction",
+  "ended_utc": "2026-11-18T09:10:48.386907+00:00",
+  "id": "t02_honda_sample",
+  "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+  "prior_run": null,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "row_counts": {
+    "H1.Z20": {
+      "off_grid": 2,
+      "scanned": 3052942,
+      "selected": 2869
+    }
+  },
+  "scope": [
+    "2023-03-03T00:00:00Z",
+    "2023-03-05T00:00:00Z"
+  ],
+  "source_manifest_sha256": "d26f003e7bb1023ddce4f81d51c8ecafb7777f0bf8332efff99f480e1169903b",
+  "started_utc": "2026-11-18T09:10:42.596373+00:00",
+  "status": "OK",
+  "task": "T02"
+}

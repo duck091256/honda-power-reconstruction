@@ -1,0 +1,82 @@
+[
+  {
+    "bins": 35040,
+    "etl_s": 0.059507909001695225,
+    "ingest_s": 0.22701766699901782,
+    "meter": "H1.Z11",
+    "panel_sha256": "8df6fb4523a7022973a24e8d332d694c3bfd5766f1852689570a816e93249895",
+    "scanned": 3017983,
+    "selected": 487994,
+    "valid": 26190
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.0583659149997402,
+    "ingest_s": 0.22735880800064479,
+    "meter": "H1.Z12",
+    "panel_sha256": "d77e8e4f566e6ae623d5c1c61343ad0125e9963f43fedbf70a1e11a255dd2ed7",
+    "scanned": 3044361,
+    "selected": 488146,
+    "valid": 26289
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.058524271998976474,
+    "ingest_s": 0.22552695900049002,
+    "meter": "H1.Z20",
+    "panel_sha256": "8d6db9420ae42005fd993fcd9cc9dd930aa294651b3d2d8f0deadef4b389a5f7",
+    "scanned": 3052942,
+    "selected": 488585,
+    "valid": 26742
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.05791804299951764,
+    "ingest_s": 0.2248814869999478,
+    "meter": "H1.Z24",
+    "panel_sha256": "96a5a790c40619744e273727948044efb9c101c1b9a6fe5642677a4908114769",
+    "scanned": 3048085,
+    "selected": 487755,
+    "valid": 26129
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.06010872599836148,
+    "ingest_s": 0.23730284700104676,
+    "meter": "H1.Z10",
+    "panel_sha256": "102d6d365f9104ce5d5458a7a627aa6f207cf6ad910205d09a7dd12c6f58c4bb",
+    "scanned": 3056535,
+    "selected": 488989,
+    "valid": 27030
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.05835147700054222,
+    "ingest_s": 0.2279661379998288,
+    "meter": "H1.Z13",
+    "panel_sha256": "0161c0e132a0ca9b2094fcc2968dc2cdbc8dc1f476911a643eefe242d2e7392b",
+    "scanned": 3056320,
+    "selected": 488947,
+    "valid": 26997
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.057574278998799855,
+    "ingest_s": 0.23382412499995553,
+    "meter": "H1.Z14",
+    "panel_sha256": "78a6c06c57fe4c077dcfb4c78d168e1dc2465cef0a9676f5fce80c8cfdfc8f85",
+    "scanned": 3056272,
+    "selected": 488906,
+    "valid": 26974
+  },
+  {
+    "bins": 35040,
+    "etl_s": 0.05760337299943785,
+    "ingest_s": 0.22660213699964515,
+    "meter": "H1.Z16",
+    "panel_sha256": "b59d4e8d1587ae7cfc53973113186f65fb384dd0b3fa332a707429a4deff3c2b",
+    "scanned": 3106515,
+    "selected": 485835,
+    "valid": 27287
+  }
+]

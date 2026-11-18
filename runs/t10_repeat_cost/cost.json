@@ -1,0 +1,110 @@
+{
+  "bytes_read": "[ch\u01b0a \u0111o]",
+  "cache": "No Spark persist; fresh DataFrame per query; JVM/OS cache uncontrolled after one warmup",
+  "cpu_count": 16,
+  "host_memory": {
+    "MemAvailable": "6510884 kB",
+    "MemTotal": "15062128 kB"
+  },
+  "layouts": {
+    "partitioned": {
+      "bytes": 559414,
+      "create_s": 0.6001328449983703,
+      "files": 6,
+      "median_query_s": 0.19941679099974863,
+      "runs": [
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "warmup",
+          "rows": 1344,
+          "seconds": 0.29192267899998114
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.23514021600021806
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.19941679099974863
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.16949590900003386
+        }
+      ],
+      "whole_panel": {
+        "digest_sha256": "1ef9050d4f517236121bcf028f7e020ae74b31dd2fb255a73bd81868d46e5de7",
+        "rows": 34560
+      }
+    },
+    "plain": {
+      "bytes": 558422,
+      "create_s": 0.6094526790002419,
+      "files": 2,
+      "median_query_s": 0.2340726080001332,
+      "runs": [
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "warmup",
+          "rows": 1344,
+          "seconds": 0.4435617090002779
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.2419421760005207
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.2340726080001332
+        },
+        {
+          "digest_sha256": "3eb7a6d23dfa439b759a8c19db5d6953243d384159417df859b01054449eba9f",
+          "phase": "timed",
+          "rows": 1344,
+          "seconds": 0.1929418359995907
+        }
+      ],
+      "whole_panel": {
+        "digest_sha256": "1ef9050d4f517236121bcf028f7e020ae74b31dd2fb255a73bd81868d46e5de7",
+        "rows": 34560
+      }
+    }
+  },
+  "panel": {
+    "digest_sha256": "1ef9050d4f517236121bcf028f7e020ae74b31dd2fb255a73bd81868d46e5de7",
+    "rows": 34560
+  },
+  "query": {
+    "codec": "snappy",
+    "end_utc": "2023-03-20T00:00:00Z",
+    "meter_id": "H1.Z20",
+    "start_utc": "2023-03-06T00:00:00Z",
+    "timed_per_layout": 3,
+    "warmups_per_layout": 1,
+    "write_partitions": 2
+  },
+  "scope": [
+    1672531200000000,
+    1680307200000000
+  ],
+  "source_compressed_bytes": 66719973,
+  "source_rows_in_scope": 517238,
+  "spark": {
+    "heap_max_bytes": 536870912,
+    "java_version": "21.0.13+9-LTS",
+    "master": "local[2]",
+    "shuffle_partitions": "4",
+    "timezone": "UTC",
+    "version": "4.0.1"
+  }
+}

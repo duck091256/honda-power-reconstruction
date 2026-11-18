@@ -1,0 +1,33 @@
+{
+  "history_start_utc": "2020-04-01T00:00:00Z",
+  "history_end_utc": "2023-10-01T00:00:00Z",
+  "test_start_utc": "2023-10-01T00:00:00Z",
+  "test_end_utc": "2024-01-01T00:00:00Z",
+  "gap_bins": [
+    1,
+    4,
+    24
+  ],
+  "cap_per_meter_per_duration": 30,
+  "seed": 42,
+  "selection": "ascending SHA-256 of seed|meter|start UTC|n_bins; disjoint hidden bins within meter and duration",
+  "context_each_side_bins": 4,
+  "methods": [
+    "Linear",
+    "Seasonal"
+  ],
+  "seasonal_fallback": [
+    "weekday_slot",
+    "slot",
+    "meter"
+  ],
+  "tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-08
+  },
+  "budget": {
+    "spark_master": "local[2]",
+    "driver_heap_mib": 512,
+    "artifact_cap_mib_per_run": 1024
+  }
+}

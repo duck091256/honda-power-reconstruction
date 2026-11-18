@@ -1,0 +1,2 @@
+run_id,case_id,method,mae_w,abs_energy_error_kwh,reason
+t04_one_meter,ee7d826547c0f3e6b3582d289e878097f7d5c12600f988357fda131c16755397,Linear,15377.943166666657,15.377943166666658,
