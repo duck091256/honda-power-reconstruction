@@ -1,0 +1,1562 @@
+[
+  {
+    "actual": "verified",
+    "evidence": "run_manifest.json",
+    "expected": "verified",
+    "name": "registered T11/T14 inputs",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      "H1.Z10",
+      "H1.Z11",
+      "H1.Z12",
+      "H1.Z13",
+      "H1.Z14",
+      "H1.Z15",
+      "H1.Z16",
+      "H1.Z17",
+      "H1.Z18",
+      "H1.Z19",
+      "H1.Z20",
+      "H1.Z21",
+      "H1.Z22",
+      "H1.Z23",
+      "H1.Z24",
+      "H1.Z25",
+      "H1.Z26",
+      "H1.Z27",
+      "H1.Z28",
+      "H1.Z29",
+      "H1.Z310",
+      "H1.ZE20",
+      "H2.T.Z30",
+      "H2.T.Z31",
+      "H2.T.Z32",
+      "H2.T.Z33",
+      "H2.T.Z34",
+      "H2.Z311",
+      "H2.Z35",
+      "H2.Z351",
+      "H2.Z36",
+      "H2.Z361",
+      "H2.Z61",
+      "H2.Z62",
+      "H2.Z63",
+      "H2.Z64",
+      "H2.Z65",
+      "H2.Z66",
+      "H2.Z67",
+      "H2.Z68",
+      "H2.Z69",
+      "H2.Z70",
+      "H2.ZE64",
+      "H2.ZE65",
+      "H2.ZE66",
+      "H2.ZE67",
+      "H2.ZE74",
+      "H3.Z312",
+      "H3.Z40",
+      "H3.Z41",
+      "H3.Z42",
+      "H3.Z43",
+      "H3.Z44",
+      "H3.Z45",
+      "H3.Z46",
+      "H3.Z47",
+      "H3.Z48",
+      "H3.Z49",
+      "H3.Z71",
+      "H3.ZE40",
+      "H3.ZE41",
+      "H3.ZE43",
+      "H3.ZE44",
+      "H4.Z50",
+      "H4.Z51",
+      "H4.ZE50",
+      "H4.ZE51",
+      "V.Z81",
+      "V.Z82",
+      "V.Z84",
+      "V.ZE84"
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel",
+    "expected": [
+      "H1.Z10",
+      "H1.Z11",
+      "H1.Z12",
+      "H1.Z13",
+      "H1.Z14",
+      "H1.Z15",
+      "H1.Z16",
+      "H1.Z17",
+      "H1.Z18",
+      "H1.Z19",
+      "H1.Z20",
+      "H1.Z21",
+      "H1.Z22",
+      "H1.Z23",
+      "H1.Z24",
+      "H1.Z25",
+      "H1.Z26",
+      "H1.Z27",
+      "H1.Z28",
+      "H1.Z29",
+      "H1.Z310",
+      "H1.ZE20",
+      "H2.T.Z30",
+      "H2.T.Z31",
+      "H2.T.Z32",
+      "H2.T.Z33",
+      "H2.T.Z34",
+      "H2.Z311",
+      "H2.Z35",
+      "H2.Z351",
+      "H2.Z36",
+      "H2.Z361",
+      "H2.Z61",
+      "H2.Z62",
+      "H2.Z63",
+      "H2.Z64",
+      "H2.Z65",
+      "H2.Z66",
+      "H2.Z67",
+      "H2.Z68",
+      "H2.Z69",
+      "H2.Z70",
+      "H2.ZE64",
+      "H2.ZE65",
+      "H2.ZE66",
+      "H2.ZE67",
+      "H2.ZE74",
+      "H3.Z312",
+      "H3.Z40",
+      "H3.Z41",
+      "H3.Z42",
+      "H3.Z43",
+      "H3.Z44",
+      "H3.Z45",
+      "H3.Z46",
+      "H3.Z47",
+      "H3.Z48",
+      "H3.Z49",
+      "H3.Z71",
+      "H3.ZE40",
+      "H3.ZE41",
+      "H3.ZE43",
+      "H3.ZE44",
+      "H4.Z50",
+      "H4.Z51",
+      "H4.ZE50",
+      "H4.ZE51",
+      "V.Z81",
+      "V.Z82",
+      "V.Z84",
+      "V.ZE84"
+    ],
+    "name": "panel files and catalog",
+    "status": "PASS"
+  },
+  {
+    "actual": 71,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel",
+    "expected": 71,
+    "name": "registered channel count",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z10.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z10 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z11.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z11 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z12.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z12 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z13.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z13 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z14.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z14 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z15.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z15 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z16.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z16 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z17.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z17 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z18.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z18 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z19.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z19 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z20.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z20 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z21.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z21 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z22.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z22 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z23.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z23 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z24.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z24 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z25.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z25 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210333,
+      210333,
+      1514763900000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z26.parquet",
+    "expected": [
+      210333,
+      210333,
+      1514763900000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z26 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z27.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z27 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z28.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z28 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z29.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z29 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      123268,
+      123268,
+      1593122400000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.Z310.parquet",
+    "expected": [
+      123268,
+      123268,
+      1593122400000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.Z310 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      38075,
+      38075,
+      1669796100000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H1.ZE20.parquet",
+    "expected": [
+      38075,
+      38075,
+      1669796100000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H1.ZE20 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.T.Z30.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.T.Z30 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.T.Z31.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.T.Z31 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.T.Z32.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.T.Z32 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.T.Z33.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.T.Z33 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.T.Z34.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.T.Z34 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      123364,
+      123364,
+      1593036000000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z311.parquet",
+    "expected": [
+      123364,
+      123364,
+      1593036000000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z311 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      94323,
+      94323,
+      1514761200000000,
+      1599651000000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z35.parquet",
+    "expected": [
+      94323,
+      94323,
+      1514761200000000,
+      1599651000000000,
+      0
+    ],
+    "name": "H2.Z35 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      115444,
+      115444,
+      1600164000000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z351.parquet",
+    "expected": [
+      115444,
+      115444,
+      1600164000000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z351 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      94323,
+      94323,
+      1514761200000000,
+      1599651000000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z36.parquet",
+    "expected": [
+      94323,
+      94323,
+      1514761200000000,
+      1599651000000000,
+      0
+    ],
+    "name": "H2.Z36 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      115444,
+      115444,
+      1600164000000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z361.parquet",
+    "expected": [
+      115444,
+      115444,
+      1600164000000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z361 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z61.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z61 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z62.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z62 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z63.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z63 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z64.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z64 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z65.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z65 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z66.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z66 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z67.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z67 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z68.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z68 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z69.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z69 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.Z70.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.Z70 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.ZE64.parquet",
+    "expected": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.ZE64 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      60218,
+      60218,
+      1647960300000000,
+      1702155600000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.ZE65.parquet",
+    "expected": [
+      60218,
+      60218,
+      1647960300000000,
+      1702155600000000,
+      0
+    ],
+    "name": "H2.ZE65 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.ZE66.parquet",
+    "expected": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.ZE66 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.ZE67.parquet",
+    "expected": [
+      62337,
+      62337,
+      1647960300000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.ZE67 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62724,
+      62724,
+      1647612000000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H2.ZE74.parquet",
+    "expected": [
+      62724,
+      62724,
+      1647612000000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H2.ZE74 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      123268,
+      123268,
+      1593122400000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z312.parquet",
+    "expected": [
+      123268,
+      123268,
+      1593122400000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z312 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z40.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z40 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z41.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z41 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z42.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z42 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z43.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z43 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z44.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z44 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z45.parquet",
+    "expected": [
+      207360,
+      207360,
+      1517439600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z45 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z46.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z46 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z47.parquet",
+    "expected": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z47 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z48.parquet",
+    "expected": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z48 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z49.parquet",
+    "expected": [
+      122788,
+      122788,
+      1593554400000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z49 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.Z71.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.Z71 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.ZE40.parquet",
+    "expected": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.ZE40 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.ZE41.parquet",
+    "expected": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.ZE41 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.ZE43.parquet",
+    "expected": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.ZE43 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H3.ZE44.parquet",
+    "expected": [
+      62743,
+      62743,
+      1647594900000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H3.ZE44 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      191963,
+      191963,
+      1514761200000000,
+      1687527000000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H4.Z50.parquet",
+    "expected": [
+      191963,
+      191963,
+      1514761200000000,
+      1687527000000000,
+      0
+    ],
+    "name": "H4.Z50 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      191963,
+      191963,
+      1514761200000000,
+      1687527000000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H4.Z51.parquet",
+    "expected": [
+      191963,
+      191963,
+      1514761200000000,
+      1687527000000000,
+      0
+    ],
+    "name": "H4.Z51 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62350,
+      62350,
+      1647948600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H4.ZE50.parquet",
+    "expected": [
+      62350,
+      62350,
+      1647948600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H4.ZE50 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      62350,
+      62350,
+      1647948600000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/H4.ZE51.parquet",
+    "expected": [
+      62350,
+      62350,
+      1647948600000000,
+      1704062700000000,
+      0
+    ],
+    "name": "H4.ZE51 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/V.Z81.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "V.Z81 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/V.Z82.parquet",
+    "expected": [
+      210336,
+      210336,
+      1514761200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "V.Z82 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      158116,
+      158116,
+      1561759200000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/V.Z84.parquet",
+    "expected": [
+      158116,
+      158116,
+      1561759200000000,
+      1704062700000000,
+      0
+    ],
+    "name": "V.Z84 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      38717,
+      38717,
+      1669218300000000,
+      1704062700000000,
+      0
+    ],
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel/V.ZE84.parquet",
+    "expected": [
+      38717,
+      38717,
+      1669218300000000,
+      1704062700000000,
+      0
+    ],
+    "name": "V.ZE84 unique, aligned, contiguous, bounds and flags",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "coverage_rebuilt.csv",
+    "expected": 0,
+    "name": "coverage groups and source row counts",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476,
+      "valid": 4717365
+    },
+    "evidence": "coverage_rebuilt.csv",
+    "expected": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476,
+      "valid": 4717365
+    },
+    "name": "known T14 counts by reason",
+    "status": "PASS"
+  },
+  {
+    "actual": 11906542,
+    "evidence": "coverage_rebuilt.csv",
+    "expected": 11906542,
+    "name": "total T14 grid cells",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      true,
+      true
+    ],
+    "evidence": "lock.json",
+    "expected": [
+      true,
+      true
+    ],
+    "name": "capacity for locked worker tree and scratch",
+    "status": "PASS"
+  }
+]

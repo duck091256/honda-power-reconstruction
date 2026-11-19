@@ -1,0 +1,1728 @@
+[
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/lock.json",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "locked config SHA-256",
+    "status": "PASS"
+  },
+  {
+    "actual": "verified",
+    "evidence": "run_manifest.json",
+    "expected": "verified",
+    "name": "registered T11/T14 inputs",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/run_manifest.json",
+    "expected": true,
+    "name": "T11/T14 identities match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "evidence": "runs/q01_lock_r2/lock.json",
+    "expected": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "name": "machine and engine versions match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q02_fixture_r6",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "fixture used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "map used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2",
+    "expected": true,
+    "name": "map upstream checksums match",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r0_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_4/r0_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_duckdb/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r0_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r0_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_spark/worker_result.json",
+    "expected": true,
+    "name": "level_4/r0_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r0_spark/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r0_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r1_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_spark/worker_result.json",
+    "expected": true,
+    "name": "level_4/r1_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_spark/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r1_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r1_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_4/r1_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r1_duckdb/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r1_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r2_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_4/r2_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_duckdb/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r2_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r2_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_spark/worker_result.json",
+    "expected": true,
+    "name": "level_4/r2_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r2_spark/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r2_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r3_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_spark/worker_result.json",
+    "expected": true,
+    "name": "level_4/r3_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_spark/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r3_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 21866,
+        "sha256": "c0de363073f3a7295ad293b3bca57aeaf5d92c3cbab69f9d03ed3500d2a20e38"
+      },
+      "episodes": {
+        "rows": 21431,
+        "sha256": "a360daa12345aaa831fe0ffa5c631276fa02b61dd4c6b3c268a632e427b5e845"
+      },
+      "log_links": {
+        "rows": 10040,
+        "sha256": "443766746259791e54b79b421bf56a642ec5beaa4e3c8d2e0f2a4e8120cc84db"
+      },
+      "support": {
+        "rows": 21431,
+        "sha256": "1804d685e7f46ba900b5f95323e242a8d9d286fa1ed8546112c273a73af514ca"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4795ab2715a4f6f2d4d1fd2680676d7937949cb5a13dce8cec61b426163ebd11"
+      }
+    },
+    "name": "level_4/r3_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_4/r3_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_duckdb/measurement.json",
+    "expected": 10040,
+    "name": "level_4/r3_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "4/duckdb successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "4/spark successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": 2,
+    "evidence": "measurements.json",
+    "expected": 2,
+    "name": "4 has required completed tools",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r0_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_spark/worker_result.json",
+    "expected": true,
+    "name": "level_16/r0_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_spark/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r0_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r0_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_16/r0_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r0_duckdb/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r0_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r1_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_16/r1_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_duckdb/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r1_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r1_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_spark/worker_result.json",
+    "expected": true,
+    "name": "level_16/r1_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r1_spark/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r1_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r2_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_spark/worker_result.json",
+    "expected": true,
+    "name": "level_16/r2_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_spark/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r2_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r2_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_16/r2_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r2_duckdb/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r2_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r3_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_16/r3_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_duckdb/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r3_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 65942,
+        "sha256": "f09bb497bd5b6ed8c1fa169d152fbe1faa8f8df4ce25fb4d518a836fd7e356f9"
+      },
+      "episodes": {
+        "rows": 64696,
+        "sha256": "3e82caaf4817650976fb86043b71423bbf063da10276dab9fc81d28cf40d49df"
+      },
+      "log_links": {
+        "rows": 39839,
+        "sha256": "390c988f0a40686e686d60146ba02d835ddbab814562a67dbab2e69c2eff2108"
+      },
+      "support": {
+        "rows": 64696,
+        "sha256": "61630bede4210666dbb4b2d1aaf88fce7b526c1a14de8b2a641058b937a767e2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "4ed4f62c8c325d2e7ce9a392ccdc62de00e26118f44ac85e850eaf5939e743d7"
+      }
+    },
+    "name": "level_16/r3_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_spark/worker_result.json",
+    "expected": true,
+    "name": "level_16/r3_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_16/r3_spark/measurement.json",
+    "expected": 39839,
+    "name": "level_16/r3_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "16/duckdb successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "16/spark successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "measurements.json",
+    "expected": true,
+    "name": "16 has required completed tools",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r0_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_71/r0_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_duckdb/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r0_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r0_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_spark/worker_result.json",
+    "expected": true,
+    "name": "level_71/r0_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r0_spark/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r0_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r1_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_spark/worker_result.json",
+    "expected": true,
+    "name": "level_71/r1_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_spark/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r1_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r1_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_71/r1_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r1_duckdb/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r1_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r2_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_71/r2_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_duckdb/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r2_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r2_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_spark/worker_result.json",
+    "expected": true,
+    "name": "level_71/r2_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r2_spark/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r2_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_spark/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r3_spark all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_spark/worker_result.json",
+    "expected": true,
+    "name": "level_71/r3_spark query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_spark/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r3_spark same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_duckdb/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "level_71/r3_duckdb all logical rows",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_duckdb/worker_result.json",
+    "expected": true,
+    "name": "level_71/r3_duckdb query detail matched direct panel scan",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_71/r3_duckdb/measurement.json",
+    "expected": 126943,
+    "name": "level_71/r3_duckdb same log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "71/duckdb successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": [
+      1,
+      3
+    ],
+    "evidence": "measurements.json",
+    "expected": [
+      1,
+      3
+    ],
+    "name": "71/spark successful warmup and timed rounds",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "measurements.json",
+    "expected": true,
+    "name": "71 has required completed tools",
+    "status": "PASS"
+  }
+]

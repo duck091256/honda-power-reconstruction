@@ -1,0 +1,624 @@
+[
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/lock.json",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "locked config SHA-256",
+    "status": "PASS"
+  },
+  {
+    "actual": "verified",
+    "evidence": "run_manifest.json",
+    "expected": "verified",
+    "name": "registered T11/T14 inputs",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/run_manifest.json",
+    "expected": true,
+    "name": "T11/T14 identities match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "evidence": "runs/q01_lock_r2/lock.json",
+    "expected": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "name": "machine and engine versions match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q02_fixture_r6",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "fixture used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "map used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2",
+    "expected": true,
+    "name": "map upstream checksums match",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "benchmark used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "artifacts_sha256": {
+        "checks.json": "13594965ebe32d0811c0db7c7911f715249af2ea9251eea50a813722f8ddf18f",
+        "level_16/audit.json": "f7c938ceee85c1d87ed1e6f2968963c31c4e89e32f76bc9b45740673e8023d68",
+        "level_16/tables/episode_reasons.parquet": "2fc9eda62ea96ef437208d83dddc0b31cdc1420e7f24d98c0aeee1b2c60f4393",
+        "level_16/tables/episodes.parquet": "e791f90ea4eab673e36496585d4a35038f4277fdac16131eb85bb1cf0b4e20cd",
+        "level_16/tables/log_links.parquet": "1e454e8958a144597402346b1650c44f3eaa6a207008d7f44878e82ae4000702",
+        "level_16/tables/support.parquet": "3ec85511b76c621af9d3430158b92657b7b13fd161439ca71f9269cfbdfd0128",
+        "level_16/tables/timeline.parquet": "064fe00606b9eab24e2f119bfd5e4df5907d3a0ab3418ef9f4e8f9bdfb16544d",
+        "level_4/audit.json": "4b4fcf4dc2dde6b6f2cd8e5767c4af9f975184cd9777f31b46c59a74430c2bf7",
+        "level_4/tables/episode_reasons.parquet": "f478a7833b3103a88a0db943e7a3d77dcb443cb999e3f26728cd1613d4233ab9",
+        "level_4/tables/episodes.parquet": "26d4d03c9235ac85727d69486017bd17a900adc05844bee8e8769e8779714782",
+        "level_4/tables/log_links.parquet": "c4c54bb975145351392059c1efb4d939890fc8872ff876d5d64fc6e353db7bc2",
+        "level_4/tables/support.parquet": "28fc76f4fa0dc14ef3db8a55460bf6ee10641e0a10fcd0ca28310c505af0e490",
+        "level_4/tables/timeline.parquet": "26d2c29d49f4013ed85d6ee0eca532e4a847020021cdbdb28191dca6cad5d020",
+        "level_71/audit.json": "1f6ff6231bbfd3aea396bb508dd6254dc59587cf4e17d0750825e0c10a601d6d",
+        "level_71/tables/episode_reasons.parquet": "b5e76d499568891ead51a194b939b68c552ab2fadec73cdb84267072bdc6361e",
+        "level_71/tables/episodes.parquet": "3f5a1c709e29bf44f0df4e68ffdb635f28e81f0060916fdd0c920c2a28007d5b",
+        "level_71/tables/log_links.parquet": "8e973b8026c6290a56491e9719131ea370e473bf9ac9fcb9c06ccdd9a3c0db92",
+        "level_71/tables/support.parquet": "655562da8e102ae8bdb6982515814455d06b6239bfa3e82e01a6c5afbd9cbed0",
+        "level_71/tables/timeline.parquet": "8d95832f34ca0feaac2127c45cb5c4c9a9e2a800264a6e82dd92592da10afd29",
+        "summary.json": "83728c646a37cd045f1cdb2b2fad345dc4fd358650f61ac157b4205f037bc44c"
+      },
+      "manifest_sha256": "a4e78fdd97de34a22e1c4492db493f40c7f01b2a976955aeece7c4c8264f623b"
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark",
+    "expected": {
+      "artifacts_sha256": {
+        "checks.json": "13594965ebe32d0811c0db7c7911f715249af2ea9251eea50a813722f8ddf18f",
+        "level_16/audit.json": "f7c938ceee85c1d87ed1e6f2968963c31c4e89e32f76bc9b45740673e8023d68",
+        "level_16/tables/episode_reasons.parquet": "2fc9eda62ea96ef437208d83dddc0b31cdc1420e7f24d98c0aeee1b2c60f4393",
+        "level_16/tables/episodes.parquet": "e791f90ea4eab673e36496585d4a35038f4277fdac16131eb85bb1cf0b4e20cd",
+        "level_16/tables/log_links.parquet": "1e454e8958a144597402346b1650c44f3eaa6a207008d7f44878e82ae4000702",
+        "level_16/tables/support.parquet": "3ec85511b76c621af9d3430158b92657b7b13fd161439ca71f9269cfbdfd0128",
+        "level_16/tables/timeline.parquet": "064fe00606b9eab24e2f119bfd5e4df5907d3a0ab3418ef9f4e8f9bdfb16544d",
+        "level_4/audit.json": "4b4fcf4dc2dde6b6f2cd8e5767c4af9f975184cd9777f31b46c59a74430c2bf7",
+        "level_4/tables/episode_reasons.parquet": "f478a7833b3103a88a0db943e7a3d77dcb443cb999e3f26728cd1613d4233ab9",
+        "level_4/tables/episodes.parquet": "26d4d03c9235ac85727d69486017bd17a900adc05844bee8e8769e8779714782",
+        "level_4/tables/log_links.parquet": "c4c54bb975145351392059c1efb4d939890fc8872ff876d5d64fc6e353db7bc2",
+        "level_4/tables/support.parquet": "28fc76f4fa0dc14ef3db8a55460bf6ee10641e0a10fcd0ca28310c505af0e490",
+        "level_4/tables/timeline.parquet": "26d2c29d49f4013ed85d6ee0eca532e4a847020021cdbdb28191dca6cad5d020",
+        "level_71/audit.json": "1f6ff6231bbfd3aea396bb508dd6254dc59587cf4e17d0750825e0c10a601d6d",
+        "level_71/tables/episode_reasons.parquet": "b5e76d499568891ead51a194b939b68c552ab2fadec73cdb84267072bdc6361e",
+        "level_71/tables/episodes.parquet": "3f5a1c709e29bf44f0df4e68ffdb635f28e81f0060916fdd0c920c2a28007d5b",
+        "level_71/tables/log_links.parquet": "8e973b8026c6290a56491e9719131ea370e473bf9ac9fcb9c06ccdd9a3c0db92",
+        "level_71/tables/support.parquet": "655562da8e102ae8bdb6982515814455d06b6239bfa3e82e01a6c5afbd9cbed0",
+        "level_71/tables/timeline.parquet": "8d95832f34ca0feaac2127c45cb5c4c9a9e2a800264a6e82dd92592da10afd29",
+        "summary.json": "83728c646a37cd045f1cdb2b2fad345dc4fd358650f61ac157b4205f037bc44c"
+      },
+      "manifest_sha256": "a4e78fdd97de34a22e1c4492db493f40c7f01b2a976955aeece7c4c8264f623b"
+    },
+    "name": "benchmark used exact Q03 map",
+    "status": "PASS"
+  },
+  {
+    "actual": "OK",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q05_delivery_r2/repro_71/worker.log",
+    "expected": "OK",
+    "name": "fresh 71-channel run status",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q05_delivery_r2/repro_71/measurement.json",
+    "expected": 126943,
+    "name": "fresh 71-channel log count",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q05_delivery_r2/repro_71/tables",
+    "expected": {
+      "episode_reasons": {
+        "rows": 138354,
+        "sha256": "20b3512de164f7b0b29cbf1bbcf9892311239038c234ca062a184fd22fef5311"
+      },
+      "episodes": {
+        "rows": 136514,
+        "sha256": "873298865ba4a8724a7551e1ebc0eb7185dbe6dcb9ecda6f19f516de811e9fa1"
+      },
+      "log_links": {
+        "rows": 126941,
+        "sha256": "c614cfac7abbf507d05e590dd6a7dea86945918e8d949c017e9449dc89f99650"
+      },
+      "support": {
+        "rows": 136514,
+        "sha256": "e0696f8cce17839a4ace7bee48b78a5f0ca076279be095bf5697b0d9b09c1bd2"
+      },
+      "timeline": {
+        "rows": 210336,
+        "sha256": "b7f3e843f2545f1ecee2f0e25e216cbf1c3e6dc4f8238adce5db475305b3a3ec"
+      }
+    },
+    "name": "all five normalized map signatures reproduced",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "channels": [
+        [
+          "H1.Z10",
+          23
+        ],
+        [
+          "H1.Z12",
+          22
+        ],
+        [
+          "H1.Z13",
+          23
+        ],
+        [
+          "H1.Z14",
+          23
+        ],
+        [
+          "H1.Z16",
+          21
+        ],
+        [
+          "H1.Z18",
+          23
+        ],
+        [
+          "H1.Z19",
+          23
+        ],
+        [
+          "H1.Z20",
+          23
+        ],
+        [
+          "H1.Z21",
+          21
+        ],
+        [
+          "H1.Z22",
+          23
+        ],
+        [
+          "H1.Z23",
+          23
+        ],
+        [
+          "H1.Z24",
+          22
+        ],
+        [
+          "H1.Z25",
+          22
+        ],
+        [
+          "H2.T.Z30",
+          24
+        ],
+        [
+          "H2.T.Z31",
+          24
+        ],
+        [
+          "H2.T.Z32",
+          24
+        ],
+        [
+          "H2.T.Z33",
+          24
+        ],
+        [
+          "H2.T.Z34",
+          24
+        ],
+        [
+          "H2.Z61",
+          24
+        ],
+        [
+          "H2.Z62",
+          24
+        ],
+        [
+          "H2.Z63",
+          24
+        ],
+        [
+          "H2.Z64",
+          24
+        ],
+        [
+          "H2.Z65",
+          24
+        ],
+        [
+          "H2.Z66",
+          24
+        ],
+        [
+          "H2.Z67",
+          22
+        ],
+        [
+          "H2.Z68",
+          24
+        ],
+        [
+          "H2.Z69",
+          24
+        ],
+        [
+          "H2.Z70",
+          24
+        ],
+        [
+          "H3.Z40",
+          24
+        ],
+        [
+          "H3.Z41",
+          24
+        ],
+        [
+          "H3.Z42",
+          24
+        ],
+        [
+          "H3.Z43",
+          24
+        ],
+        [
+          "H3.Z44",
+          23
+        ],
+        [
+          "H3.Z45",
+          23
+        ],
+        [
+          "H3.Z46",
+          24
+        ],
+        [
+          "H3.Z47",
+          24
+        ],
+        [
+          "H3.Z49",
+          24
+        ],
+        [
+          "H3.Z71",
+          24
+        ],
+        [
+          "H4.Z50",
+          24
+        ],
+        [
+          "H4.Z51",
+          24
+        ]
+      ],
+      "key": [
+        "H1.Z11",
+        1607072400000000,
+        1607094000000000
+      ],
+      "logs": [],
+      "reasons": [
+        [
+          "missing_minute",
+          23
+        ],
+        [
+          "off_minute_grid",
+          1
+        ]
+      ],
+      "support": [
+        24,
+        24,
+        24
+      ]
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": {
+      "channels": [
+        [
+          "H1.Z10",
+          23
+        ],
+        [
+          "H1.Z12",
+          22
+        ],
+        [
+          "H1.Z13",
+          23
+        ],
+        [
+          "H1.Z14",
+          23
+        ],
+        [
+          "H1.Z16",
+          21
+        ],
+        [
+          "H1.Z18",
+          23
+        ],
+        [
+          "H1.Z19",
+          23
+        ],
+        [
+          "H1.Z20",
+          23
+        ],
+        [
+          "H1.Z21",
+          21
+        ],
+        [
+          "H1.Z22",
+          23
+        ],
+        [
+          "H1.Z23",
+          23
+        ],
+        [
+          "H1.Z24",
+          22
+        ],
+        [
+          "H1.Z25",
+          22
+        ],
+        [
+          "H2.T.Z30",
+          24
+        ],
+        [
+          "H2.T.Z31",
+          24
+        ],
+        [
+          "H2.T.Z32",
+          24
+        ],
+        [
+          "H2.T.Z33",
+          24
+        ],
+        [
+          "H2.T.Z34",
+          24
+        ],
+        [
+          "H2.Z61",
+          24
+        ],
+        [
+          "H2.Z62",
+          24
+        ],
+        [
+          "H2.Z63",
+          24
+        ],
+        [
+          "H2.Z64",
+          24
+        ],
+        [
+          "H2.Z65",
+          24
+        ],
+        [
+          "H2.Z66",
+          24
+        ],
+        [
+          "H2.Z67",
+          22
+        ],
+        [
+          "H2.Z68",
+          24
+        ],
+        [
+          "H2.Z69",
+          24
+        ],
+        [
+          "H2.Z70",
+          24
+        ],
+        [
+          "H3.Z40",
+          24
+        ],
+        [
+          "H3.Z41",
+          24
+        ],
+        [
+          "H3.Z42",
+          24
+        ],
+        [
+          "H3.Z43",
+          24
+        ],
+        [
+          "H3.Z44",
+          23
+        ],
+        [
+          "H3.Z45",
+          23
+        ],
+        [
+          "H3.Z46",
+          24
+        ],
+        [
+          "H3.Z47",
+          24
+        ],
+        [
+          "H3.Z49",
+          24
+        ],
+        [
+          "H3.Z71",
+          24
+        ],
+        [
+          "H4.Z50",
+          24
+        ],
+        [
+          "H4.Z51",
+          24
+        ]
+      ],
+      "key": [
+        "H1.Z11",
+        1607072400000000,
+        1607094000000000
+      ],
+      "logs": [],
+      "reasons": [
+        [
+          "missing_minute",
+          23
+        ],
+        [
+          "off_minute_grid",
+          1
+        ]
+      ],
+      "support": [
+        24,
+        24,
+        24
+      ]
+    },
+    "name": "real six-hour example matches the original panel and Q03 tables",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "demo_smoke.log",
+    "expected": 0,
+    "name": "archive opens from new directory and real/empty examples match UI",
+    "status": "PASS"
+  }
+]

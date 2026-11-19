@@ -1,0 +1,217 @@
+{
+  "audit_keys": [
+    [
+      "H1.Z10",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z10",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z11",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z11",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z12",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z12",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z13",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z13",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z14",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z14",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z15",
+      1514761200000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z16",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z16",
+      1704055500000000,
+      1704056400000000
+    ],
+    [
+      "H1.Z17",
+      1514761200000000,
+      1553783400000000
+    ],
+    [
+      "H1.Z17",
+      1553787000000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z18",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z18",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z19",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z19",
+      1646088300000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z20",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z20",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z21",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z21",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z22",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z22",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z23",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z23",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z24",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z24",
+      1704062700000000,
+      1704063600000000
+    ],
+    [
+      "H1.Z25",
+      1514761200000000,
+      1585699200000000
+    ],
+    [
+      "H1.Z25",
+      1704062700000000,
+      1704063600000000
+    ]
+  ],
+  "catalog": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t11_inventory/sources.json",
+  "config": {
+    "bins_by_reason": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476,
+      "valid": 4717365
+    },
+    "build_seconds": 360,
+    "cache": "Fresh engine worker per round, one warm-up round per level/tool, no OS cache eviction and no explicit engine caching of queries. Run engines serially with alternating first engine.",
+    "codec": "snappy",
+    "duckdb_memory_limit": "1024MiB",
+    "levels": [
+      4,
+      16,
+      71
+    ],
+    "pilot": [
+      "H1.Z11",
+      "H1.Z12",
+      "H1.Z20",
+      "H1.Z24"
+    ],
+    "query_rule": "shortest, longest, and nearest the median bin count; ties ordered by (meter_id, start_us, end_us); deduplicate in that order",
+    "query_seconds": 60,
+    "repeats": 3,
+    "sample_seconds": 0.1,
+    "scratch_limit_bytes": 4294967296,
+    "spark_heap": "1024m",
+    "spark_shuffle_partitions": 32,
+    "startup_seconds": 90,
+    "threads": 2,
+    "tree_rss_limit_bytes": 3221225472,
+    "warmups": 1
+  },
+  "engine": "duckdb",
+  "level": 16,
+  "meters": [
+    "H1.Z10",
+    "H1.Z11",
+    "H1.Z12",
+    "H1.Z13",
+    "H1.Z14",
+    "H1.Z15",
+    "H1.Z16",
+    "H1.Z17",
+    "H1.Z18",
+    "H1.Z19",
+    "H1.Z20",
+    "H1.Z21",
+    "H1.Z22",
+    "H1.Z23",
+    "H1.Z24",
+    "H1.Z25"
+  ],
+  "panel": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel",
+  "queries": []
+}

@@ -1,0 +1,2 @@
+2026-11-19 16:37:30.808 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+{"real_episode": ["H1.Z11", 1607072400000000, 1607094000000000], "valid_other_channels": 40, "continuous_channels": 24, "supported_bins": 24, "episode_bins": 24, "journal_links": 0, "empty_example": ["2021-10", "H2.T.Z33"], "chart_rendered": true, "files_verified": 86}

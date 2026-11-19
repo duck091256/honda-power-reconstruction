@@ -1,0 +1,43 @@
+{
+  "budget_hit": null,
+  "build_s": 2.9860568869989947,
+  "catalog_bytes": 8171003,
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda.quality_worker",
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q05_delivery_r2/repro_71"
+  ],
+  "ended_utc": "2026-11-19T09:37:26.686884+00:00",
+  "engine": "duckdb",
+  "exit_code": 0,
+  "expected_intervals": 126943,
+  "output_bytes": 7865540,
+  "overall_s": 3.3300630009998713,
+  "panel_bytes": 223906273,
+  "peaks": {
+    "build": {
+      "peak_scratch_bytes": 5947392,
+      "peak_tree_rss_bytes": 1384271872,
+      "samples": 30
+    },
+    "shutdown": {
+      "peak_scratch_bytes": 835584,
+      "peak_tree_rss_bytes": 216711168,
+      "samples": 1
+    },
+    "startup": {
+      "peak_scratch_bytes": 0,
+      "peak_tree_rss_bytes": 69423104,
+      "samples": 2
+    }
+  },
+  "prior_trial": null,
+  "queries": [],
+  "sample_seconds": 0.1,
+  "selected_log_intervals": 126943,
+  "source_rows": 11906542,
+  "started_utc": "2026-11-19T09:37:23.356822+00:00",
+  "startup_s": 0.007755064001685241,
+  "status": "OK"
+}

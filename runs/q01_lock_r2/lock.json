@@ -1,0 +1,654 @@
+{
+  "config_sha256": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+  "levels": {
+    "16": {
+      "bins": 3365376,
+      "log_intervals": 39839,
+      "meters": [
+        "H1.Z10",
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z13",
+        "H1.Z14",
+        "H1.Z15",
+        "H1.Z16",
+        "H1.Z17",
+        "H1.Z18",
+        "H1.Z19",
+        "H1.Z20",
+        "H1.Z21",
+        "H1.Z22",
+        "H1.Z23",
+        "H1.Z24",
+        "H1.Z25"
+      ],
+      "panel_bytes": 63725972
+    },
+    "4": {
+      "bins": 841344,
+      "log_intervals": 10040,
+      "meters": [
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z20",
+        "H1.Z24"
+      ],
+      "panel_bytes": 16496292
+    },
+    "71": {
+      "bins": 11906542,
+      "log_intervals": 126943,
+      "meters": [
+        "H1.Z10",
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z13",
+        "H1.Z14",
+        "H1.Z15",
+        "H1.Z16",
+        "H1.Z17",
+        "H1.Z18",
+        "H1.Z19",
+        "H1.Z20",
+        "H1.Z21",
+        "H1.Z22",
+        "H1.Z23",
+        "H1.Z24",
+        "H1.Z25",
+        "H1.Z26",
+        "H1.Z27",
+        "H1.Z28",
+        "H1.Z29",
+        "H1.Z310",
+        "H1.ZE20",
+        "H2.T.Z30",
+        "H2.T.Z31",
+        "H2.T.Z32",
+        "H2.T.Z33",
+        "H2.T.Z34",
+        "H2.Z311",
+        "H2.Z35",
+        "H2.Z351",
+        "H2.Z36",
+        "H2.Z361",
+        "H2.Z61",
+        "H2.Z62",
+        "H2.Z63",
+        "H2.Z64",
+        "H2.Z65",
+        "H2.Z66",
+        "H2.Z67",
+        "H2.Z68",
+        "H2.Z69",
+        "H2.Z70",
+        "H2.ZE64",
+        "H2.ZE65",
+        "H2.ZE66",
+        "H2.ZE67",
+        "H2.ZE74",
+        "H3.Z312",
+        "H3.Z40",
+        "H3.Z41",
+        "H3.Z42",
+        "H3.Z43",
+        "H3.Z44",
+        "H3.Z45",
+        "H3.Z46",
+        "H3.Z47",
+        "H3.Z48",
+        "H3.Z49",
+        "H3.Z71",
+        "H3.ZE40",
+        "H3.ZE41",
+        "H3.ZE43",
+        "H3.ZE44",
+        "H4.Z50",
+        "H4.Z51",
+        "H4.ZE50",
+        "H4.ZE51",
+        "V.Z81",
+        "V.Z82",
+        "V.Z84",
+        "V.ZE84"
+      ],
+      "panel_bytes": 223906273
+    }
+  },
+  "machine": {
+    "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+    "cpu_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "duckdb": "1.4.3",
+    "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+    "java": [
+      "openjdk version \"21.0.13\" 2026-10-20 LTS",
+      "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+      "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+    ],
+    "logical_cpus": 16,
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+    "pyarrow": "26.0.1",
+    "pyspark": "4.0.1",
+    "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+    "ram_bytes": 15423619072
+  },
+  "meters": {
+    "H1.Z10": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2508,
+      "panel_bytes": 4263068,
+      "start_us": 1514761200000000
+    },
+    "H1.Z11": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2509,
+      "panel_bytes": 4096819,
+      "start_us": 1514761200000000
+    },
+    "H1.Z12": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2512,
+      "panel_bytes": 4104603,
+      "start_us": 1514761200000000
+    },
+    "H1.Z13": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2506,
+      "panel_bytes": 4309970,
+      "start_us": 1514761200000000
+    },
+    "H1.Z14": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2508,
+      "panel_bytes": 4305491,
+      "start_us": 1514761200000000
+    },
+    "H1.Z15": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2355,
+      "panel_bytes": 3187748,
+      "start_us": 1514761200000000
+    },
+    "H1.Z16": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2461,
+      "panel_bytes": 3950969,
+      "start_us": 1514761200000000
+    },
+    "H1.Z17": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2405,
+      "panel_bytes": 3191289,
+      "start_us": 1514761200000000
+    },
+    "H1.Z18": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2510,
+      "panel_bytes": 4160226,
+      "start_us": 1514761200000000
+    },
+    "H1.Z19": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2513,
+      "panel_bytes": 3698143,
+      "start_us": 1514761200000000
+    },
+    "H1.Z20": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2511,
+      "panel_bytes": 4136401,
+      "start_us": 1514761200000000
+    },
+    "H1.Z21": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2508,
+      "panel_bytes": 4015382,
+      "start_us": 1514761200000000
+    },
+    "H1.Z22": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2507,
+      "panel_bytes": 4035239,
+      "start_us": 1514761200000000
+    },
+    "H1.Z23": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2507,
+      "panel_bytes": 3922854,
+      "start_us": 1514761200000000
+    },
+    "H1.Z24": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2508,
+      "panel_bytes": 4158469,
+      "start_us": 1514761200000000
+    },
+    "H1.Z25": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2511,
+      "panel_bytes": 4189301,
+      "start_us": 1514761200000000
+    },
+    "H1.Z26": {
+      "bins": 210333,
+      "end_us": 1704063600000000,
+      "log_intervals": 2395,
+      "panel_bytes": 3199504,
+      "start_us": 1514763900000000
+    },
+    "H1.Z27": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2406,
+      "panel_bytes": 3200074,
+      "start_us": 1514761200000000
+    },
+    "H1.Z28": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2403,
+      "panel_bytes": 3199720,
+      "start_us": 1514761200000000
+    },
+    "H1.Z29": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2256,
+      "panel_bytes": 3195563,
+      "start_us": 1514761200000000
+    },
+    "H1.Z310": {
+      "bins": 123268,
+      "end_us": 1704063600000000,
+      "log_intervals": 222,
+      "panel_bytes": 2057890,
+      "start_us": 1593122400000000
+    },
+    "H1.ZE20": {
+      "bins": 38075,
+      "end_us": 1704063600000000,
+      "log_intervals": 12,
+      "panel_bytes": 632835,
+      "start_us": 1669796100000000
+    },
+    "H2.T.Z30": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2513,
+      "panel_bytes": 4327856,
+      "start_us": 1514761200000000
+    },
+    "H2.T.Z31": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2512,
+      "panel_bytes": 4257036,
+      "start_us": 1514761200000000
+    },
+    "H2.T.Z32": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2513,
+      "panel_bytes": 4299390,
+      "start_us": 1514761200000000
+    },
+    "H2.T.Z33": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2712,
+      "panel_bytes": 4296141,
+      "start_us": 1517439600000000
+    },
+    "H2.T.Z34": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2588,
+      "panel_bytes": 4305477,
+      "start_us": 1514761200000000
+    },
+    "H2.Z311": {
+      "bins": 123364,
+      "end_us": 1704063600000000,
+      "log_intervals": 216,
+      "panel_bytes": 2070163,
+      "start_us": 1593036000000000
+    },
+    "H2.Z35": {
+      "bins": 94323,
+      "end_us": 1599651900000000,
+      "log_intervals": 5,
+      "panel_bytes": 1709414,
+      "start_us": 1514761200000000
+    },
+    "H2.Z351": {
+      "bins": 115444,
+      "end_us": 1704063600000000,
+      "log_intervals": 211,
+      "panel_bytes": 1939277,
+      "start_us": 1600164000000000
+    },
+    "H2.Z36": {
+      "bins": 94323,
+      "end_us": 1599651900000000,
+      "log_intervals": 5,
+      "panel_bytes": 1698391,
+      "start_us": 1514761200000000
+    },
+    "H2.Z361": {
+      "bins": 115444,
+      "end_us": 1704063600000000,
+      "log_intervals": 210,
+      "panel_bytes": 1930096,
+      "start_us": 1600164000000000
+    },
+    "H2.Z61": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2585,
+      "panel_bytes": 4237622,
+      "start_us": 1514761200000000
+    },
+    "H2.Z62": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2586,
+      "panel_bytes": 3645129,
+      "start_us": 1514761200000000
+    },
+    "H2.Z63": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2592,
+      "panel_bytes": 4174190,
+      "start_us": 1514761200000000
+    },
+    "H2.Z64": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2588,
+      "panel_bytes": 4235518,
+      "start_us": 1514761200000000
+    },
+    "H2.Z65": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2594,
+      "panel_bytes": 4257340,
+      "start_us": 1514761200000000
+    },
+    "H2.Z66": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2594,
+      "panel_bytes": 4072654,
+      "start_us": 1514761200000000
+    },
+    "H2.Z67": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2591,
+      "panel_bytes": 3988400,
+      "start_us": 1514761200000000
+    },
+    "H2.Z68": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2591,
+      "panel_bytes": 4200020,
+      "start_us": 1514761200000000
+    },
+    "H2.Z69": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2590,
+      "panel_bytes": 4155633,
+      "start_us": 1514761200000000
+    },
+    "H2.Z70": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2593,
+      "panel_bytes": 4116244,
+      "start_us": 1514761200000000
+    },
+    "H2.ZE64": {
+      "bins": 62337,
+      "end_us": 1704063600000000,
+      "log_intervals": 13,
+      "panel_bytes": 1036854,
+      "start_us": 1647960300000000
+    },
+    "H2.ZE65": {
+      "bins": 60218,
+      "end_us": 1702156500000000,
+      "log_intervals": 10,
+      "panel_bytes": 1002274,
+      "start_us": 1647960300000000
+    },
+    "H2.ZE66": {
+      "bins": 62337,
+      "end_us": 1704063600000000,
+      "log_intervals": 14,
+      "panel_bytes": 1037143,
+      "start_us": 1647960300000000
+    },
+    "H2.ZE67": {
+      "bins": 62337,
+      "end_us": 1704063600000000,
+      "log_intervals": 18,
+      "panel_bytes": 1040458,
+      "start_us": 1647960300000000
+    },
+    "H2.ZE74": {
+      "bins": 62724,
+      "end_us": 1704063600000000,
+      "log_intervals": 21,
+      "panel_bytes": 1039975,
+      "start_us": 1647612000000000
+    },
+    "H3.Z312": {
+      "bins": 123268,
+      "end_us": 1704063600000000,
+      "log_intervals": 215,
+      "panel_bytes": 2059067,
+      "start_us": 1593122400000000
+    },
+    "H3.Z40": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2708,
+      "panel_bytes": 4282367,
+      "start_us": 1517439600000000
+    },
+    "H3.Z41": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2709,
+      "panel_bytes": 4235255,
+      "start_us": 1517439600000000
+    },
+    "H3.Z42": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2707,
+      "panel_bytes": 4229101,
+      "start_us": 1517439600000000
+    },
+    "H3.Z43": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2711,
+      "panel_bytes": 4187535,
+      "start_us": 1517439600000000
+    },
+    "H3.Z44": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2711,
+      "panel_bytes": 4117110,
+      "start_us": 1517439600000000
+    },
+    "H3.Z45": {
+      "bins": 207360,
+      "end_us": 1704063600000000,
+      "log_intervals": 2710,
+      "panel_bytes": 4102941,
+      "start_us": 1517439600000000
+    },
+    "H3.Z46": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2458,
+      "panel_bytes": 4314624,
+      "start_us": 1514761200000000
+    },
+    "H3.Z47": {
+      "bins": 122788,
+      "end_us": 1704063600000000,
+      "log_intervals": 2699,
+      "panel_bytes": 3055981,
+      "start_us": 1593554400000000
+    },
+    "H3.Z48": {
+      "bins": 122788,
+      "end_us": 1704063600000000,
+      "log_intervals": 2699,
+      "panel_bytes": 2208717,
+      "start_us": 1593554400000000
+    },
+    "H3.Z49": {
+      "bins": 122788,
+      "end_us": 1704063600000000,
+      "log_intervals": 2698,
+      "panel_bytes": 2806181,
+      "start_us": 1593554400000000
+    },
+    "H3.Z71": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 5653,
+      "panel_bytes": 4264586,
+      "start_us": 1514761200000000
+    },
+    "H3.ZE40": {
+      "bins": 62743,
+      "end_us": 1704063600000000,
+      "log_intervals": 13,
+      "panel_bytes": 1045854,
+      "start_us": 1647594900000000
+    },
+    "H3.ZE41": {
+      "bins": 62743,
+      "end_us": 1704063600000000,
+      "log_intervals": 13,
+      "panel_bytes": 1044937,
+      "start_us": 1647594900000000
+    },
+    "H3.ZE43": {
+      "bins": 62743,
+      "end_us": 1704063600000000,
+      "log_intervals": 14,
+      "panel_bytes": 1046990,
+      "start_us": 1647594900000000
+    },
+    "H3.ZE44": {
+      "bins": 62743,
+      "end_us": 1704063600000000,
+      "log_intervals": 43,
+      "panel_bytes": 1046215,
+      "start_us": 1647594900000000
+    },
+    "H4.Z50": {
+      "bins": 191963,
+      "end_us": 1687527900000000,
+      "log_intervals": 154,
+      "panel_bytes": 3883212,
+      "start_us": 1514761200000000
+    },
+    "H4.Z51": {
+      "bins": 191963,
+      "end_us": 1687527900000000,
+      "log_intervals": 154,
+      "panel_bytes": 3901423,
+      "start_us": 1514761200000000
+    },
+    "H4.ZE50": {
+      "bins": 62350,
+      "end_us": 1704063600000000,
+      "log_intervals": 15,
+      "panel_bytes": 1036524,
+      "start_us": 1647948600000000
+    },
+    "H4.ZE51": {
+      "bins": 62350,
+      "end_us": 1704063600000000,
+      "log_intervals": 15,
+      "panel_bytes": 1035795,
+      "start_us": 1647948600000000
+    },
+    "V.Z81": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 1881,
+      "panel_bytes": 3203557,
+      "start_us": 1514761200000000
+    },
+    "V.Z82": {
+      "bins": 210336,
+      "end_us": 1704063600000000,
+      "log_intervals": 2413,
+      "panel_bytes": 3206558,
+      "start_us": 1514761200000000
+    },
+    "V.Z84": {
+      "bins": 158116,
+      "end_us": 1704063600000000,
+      "log_intervals": 535,
+      "panel_bytes": 2665434,
+      "start_us": 1561759200000000
+    },
+    "V.ZE84": {
+      "bins": 38717,
+      "end_us": 1704063600000000,
+      "log_intervals": 17,
+      "panel_bytes": 642056,
+      "start_us": 1669218300000000
+    }
+  },
+  "resources": {
+    "available_ram_bytes": 5842153472,
+    "free_workspace_disk_bytes": 28387790848
+  }
+}

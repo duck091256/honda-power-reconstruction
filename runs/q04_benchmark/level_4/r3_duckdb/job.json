@@ -1,0 +1,60 @@
+{
+  "audit_keys": [],
+  "catalog": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t11_inventory/sources.json",
+  "config": {
+    "bins_by_reason": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476,
+      "valid": 4717365
+    },
+    "build_seconds": 360,
+    "cache": "Fresh engine worker per round, one warm-up round per level/tool, no OS cache eviction and no explicit engine caching of queries. Run engines serially with alternating first engine.",
+    "codec": "snappy",
+    "duckdb_memory_limit": "1024MiB",
+    "levels": [
+      4,
+      16,
+      71
+    ],
+    "pilot": [
+      "H1.Z11",
+      "H1.Z12",
+      "H1.Z20",
+      "H1.Z24"
+    ],
+    "query_rule": "shortest, longest, and nearest the median bin count; ties ordered by (meter_id, start_us, end_us); deduplicate in that order",
+    "query_seconds": 60,
+    "repeats": 3,
+    "sample_seconds": 0.1,
+    "scratch_limit_bytes": 4294967296,
+    "spark_heap": "1024m",
+    "spark_shuffle_partitions": 32,
+    "startup_seconds": 90,
+    "threads": 2,
+    "tree_rss_limit_bytes": 3221225472,
+    "warmups": 1
+  },
+  "engine": "duckdb",
+  "level": 4,
+  "meters": [
+    "H1.Z11",
+    "H1.Z12",
+    "H1.Z20",
+    "H1.Z24"
+  ],
+  "panel": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/t14_full/panel",
+  "queries": [
+    [
+      "H1.Z11",
+      1585714500000000,
+      1585715400000000
+    ],
+    [
+      "H1.Z11",
+      1514761200000000,
+      1585699200000000
+    ]
+  ]
+}

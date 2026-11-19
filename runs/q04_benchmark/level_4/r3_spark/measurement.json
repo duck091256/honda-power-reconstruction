@@ -1,0 +1,218 @@
+{
+  "budget_hit": null,
+  "build_s": 6.582986815999902,
+  "catalog_bytes": 8171003,
+  "command": [
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/.venv/bin/python",
+    "-m",
+    "honda.quality_worker",
+    "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q04_benchmark/level_4/r3_spark"
+  ],
+  "ended_utc": "2026-11-19T09:33:41.400254+00:00",
+  "engine": "spark",
+  "exit_code": 0,
+  "expected_intervals": 10040,
+  "output_bytes": 2453938,
+  "overall_s": 13.51897546300097,
+  "panel_bytes": 16496292,
+  "peaks": {
+    "build": {
+      "peak_scratch_bytes": 9797632,
+      "peak_tree_rss_bytes": 1233018880,
+      "samples": 58
+    },
+    "query_0": {
+      "peak_scratch_bytes": 3923968,
+      "peak_tree_rss_bytes": 1261162496,
+      "samples": 6
+    },
+    "query_1": {
+      "peak_scratch_bytes": 3932160,
+      "peak_tree_rss_bytes": 1288151040,
+      "samples": 3
+    },
+    "query_setup": {
+      "peak_scratch_bytes": 3870720,
+      "peak_tree_rss_bytes": 1232990208,
+      "samples": 3
+    },
+    "shutdown": {
+      "peak_scratch_bytes": 3870720,
+      "peak_tree_rss_bytes": 1287159808,
+      "samples": 5
+    },
+    "startup": {
+      "peak_scratch_bytes": 0,
+      "peak_tree_rss_bytes": 575631360,
+      "samples": 46
+    }
+  },
+  "prior_trial": null,
+  "queries": [
+    {
+      "detail": {
+        "channels": [
+          [
+            "H1.Z12",
+            1
+          ],
+          [
+            "H1.Z20",
+            1
+          ],
+          [
+            "H1.Z24",
+            1
+          ]
+        ],
+        "key": [
+          "H1.Z11",
+          1585714500000000,
+          1585715400000000
+        ],
+        "logs": [],
+        "reasons": [
+          [
+            "missing_minute",
+            1
+          ]
+        ],
+        "support": [
+          1,
+          1,
+          3
+        ]
+      },
+      "wall_s": 0.6109725900005287
+    },
+    {
+      "detail": {
+        "channels": [],
+        "key": [
+          "H1.Z11",
+          1514761200000000,
+          1585699200000000
+        ],
+        "logs": [
+          [
+            0,
+            1516639200000000,
+            1517242200000000
+          ],
+          [
+            1,
+            1517269500000000,
+            1517318100000000
+          ],
+          [
+            2,
+            1517316300000000,
+            1517321700000000
+          ],
+          [
+            3,
+            1517319900000000,
+            1517325300000000
+          ],
+          [
+            4,
+            1517323500000000,
+            1517328900000000
+          ],
+          [
+            5,
+            1517327100000000,
+            1517332500000000
+          ],
+          [
+            6,
+            1550431440000000,
+            1550434620000000
+          ],
+          [
+            7,
+            1550435220000000,
+            1550438400000000
+          ],
+          [
+            8,
+            1550436900000000,
+            1550440080000000
+          ],
+          [
+            9,
+            1550438580000000,
+            1550441760000000
+          ],
+          [
+            10,
+            1550440200000000,
+            1550443380000000
+          ],
+          [
+            11,
+            1550441880000000,
+            1550445060000000
+          ],
+          [
+            12,
+            1550443560000000,
+            1550446740000000
+          ],
+          [
+            13,
+            1550445180000000,
+            1550448360000000
+          ],
+          [
+            14,
+            1550446860000000,
+            1550480340000000
+          ],
+          [
+            15,
+            1550478540000000,
+            1550676840000000
+          ],
+          [
+            16,
+            1559742780000000,
+            1559745180000000
+          ],
+          [
+            17,
+            1561447560000000,
+            1561468740000000
+          ],
+          [
+            18,
+            1584363720000000,
+            1584365880000000
+          ]
+        ],
+        "reasons": [
+          [
+            "clock_unverified",
+            77772
+          ],
+          [
+            "issue_interval",
+            1048
+          ]
+        ],
+        "support": [
+          78820,
+          0,
+          0
+        ]
+      },
+      "wall_s": 0.42289920800067193
+    }
+  ],
+  "sample_seconds": 0.1,
+  "selected_log_intervals": 10040,
+  "source_rows": 841344,
+  "started_utc": "2026-11-19T09:33:27.881282+00:00",
+  "startup_s": 4.8783090239994635,
+  "status": "OK"
+}

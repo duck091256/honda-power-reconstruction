@@ -1,0 +1,249 @@
+{
+  "16": {
+    "engines": {
+      "duckdb": {
+        "build_max_scratch_bytes": 270336,
+        "build_max_tree_rss_bytes": 532746240,
+        "build_median_s": 1.113350249999712,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          0.028829328000938403,
+          0.03990313899885223
+        ],
+        "startup_median_s": 0.00801957000112452,
+        "status": "OK"
+      },
+      "spark": {
+        "build_max_scratch_bytes": 36438016,
+        "build_max_tree_rss_bytes": 1685975040,
+        "build_median_s": 9.409711842999968,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          0.6218757200003893,
+          0.6482203600007779
+        ],
+        "startup_median_s": 4.765732630999992,
+        "status": "OK"
+      },
+      "spark_over_duckdb_build": 8.451708564310648,
+      "spark_over_duckdb_query": [
+        21.570940535975968,
+        16.244846301926856
+      ]
+    },
+    "query_keys": [
+      [
+        "H1.Z10",
+        1585886400000000,
+        1585887300000000
+      ],
+      [
+        "H1.Z15",
+        1514761200000000,
+        1704063600000000
+      ]
+    ],
+    "scope": {
+      "bins": 3365376,
+      "log_intervals": 39839,
+      "meters": [
+        "H1.Z10",
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z13",
+        "H1.Z14",
+        "H1.Z15",
+        "H1.Z16",
+        "H1.Z17",
+        "H1.Z18",
+        "H1.Z19",
+        "H1.Z20",
+        "H1.Z21",
+        "H1.Z22",
+        "H1.Z23",
+        "H1.Z24",
+        "H1.Z25"
+      ],
+      "panel_bytes": 63725972
+    }
+  },
+  "4": {
+    "engines": {
+      "duckdb": {
+        "build_max_scratch_bytes": 86016,
+        "build_max_tree_rss_bytes": 280444928,
+        "build_median_s": 0.48809878599968215,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          0.011757987000237335,
+          0.010697594001612742
+        ],
+        "startup_median_s": 0.007621323000421398,
+        "status": "OK"
+      },
+      "spark": {
+        "build_max_scratch_bytes": 12832768,
+        "build_max_tree_rss_bytes": 1233018880,
+        "build_median_s": 7.232324506001532,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          0.5962318179990689,
+          0.42289920800067193
+        ],
+        "startup_median_s": 4.937882148999051,
+        "status": "OK"
+      },
+      "spark_over_duckdb_build": 14.817337623958446,
+      "spark_over_duckdb_query": [
+        50.70866450073758,
+        39.53217965992322
+      ]
+    },
+    "query_keys": [
+      [
+        "H1.Z11",
+        1585714500000000,
+        1585715400000000
+      ],
+      [
+        "H1.Z11",
+        1514761200000000,
+        1585699200000000
+      ]
+    ],
+    "scope": {
+      "bins": 841344,
+      "log_intervals": 10040,
+      "meters": [
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z20",
+        "H1.Z24"
+      ],
+      "panel_bytes": 16496292
+    }
+  },
+  "71": {
+    "engines": {
+      "duckdb": {
+        "build_max_scratch_bytes": 7290880,
+        "build_max_tree_rss_bytes": 1400500224,
+        "build_median_s": 2.9579607759987994,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          0.07726159599951643,
+          0.10898179700052424
+        ],
+        "startup_median_s": 0.008611704000941245,
+        "status": "OK"
+      },
+      "spark": {
+        "build_max_scratch_bytes": 162836480,
+        "build_max_tree_rss_bytes": 1875546112,
+        "build_median_s": 17.453251081000417,
+        "pairing": "all map hashes and all query details matched Q03",
+        "query_median_s": [
+          1.0640917400014587,
+          1.0886691069990775
+        ],
+        "startup_median_s": 4.726834110000709,
+        "status": "OK"
+      },
+      "spark_over_duckdb_build": 5.900433576610585,
+      "spark_over_duckdb_query": [
+        13.77258295321933,
+        9.989458211941951
+      ]
+    },
+    "query_keys": [
+      [
+        "H1.Z10",
+        1585886400000000,
+        1585887300000000
+      ],
+      [
+        "H1.Z15",
+        1514761200000000,
+        1704063600000000
+      ]
+    ],
+    "scope": {
+      "bins": 11906542,
+      "log_intervals": 126943,
+      "meters": [
+        "H1.Z10",
+        "H1.Z11",
+        "H1.Z12",
+        "H1.Z13",
+        "H1.Z14",
+        "H1.Z15",
+        "H1.Z16",
+        "H1.Z17",
+        "H1.Z18",
+        "H1.Z19",
+        "H1.Z20",
+        "H1.Z21",
+        "H1.Z22",
+        "H1.Z23",
+        "H1.Z24",
+        "H1.Z25",
+        "H1.Z26",
+        "H1.Z27",
+        "H1.Z28",
+        "H1.Z29",
+        "H1.Z310",
+        "H1.ZE20",
+        "H2.T.Z30",
+        "H2.T.Z31",
+        "H2.T.Z32",
+        "H2.T.Z33",
+        "H2.T.Z34",
+        "H2.Z311",
+        "H2.Z35",
+        "H2.Z351",
+        "H2.Z36",
+        "H2.Z361",
+        "H2.Z61",
+        "H2.Z62",
+        "H2.Z63",
+        "H2.Z64",
+        "H2.Z65",
+        "H2.Z66",
+        "H2.Z67",
+        "H2.Z68",
+        "H2.Z69",
+        "H2.Z70",
+        "H2.ZE64",
+        "H2.ZE65",
+        "H2.ZE66",
+        "H2.ZE67",
+        "H2.ZE74",
+        "H3.Z312",
+        "H3.Z40",
+        "H3.Z41",
+        "H3.Z42",
+        "H3.Z43",
+        "H3.Z44",
+        "H3.Z45",
+        "H3.Z46",
+        "H3.Z47",
+        "H3.Z48",
+        "H3.Z49",
+        "H3.Z71",
+        "H3.ZE40",
+        "H3.ZE41",
+        "H3.ZE43",
+        "H3.ZE44",
+        "H4.Z50",
+        "H4.Z51",
+        "H4.ZE50",
+        "H4.ZE51",
+        "V.Z81",
+        "V.Z82",
+        "V.Z84",
+        "V.ZE84"
+      ],
+      "panel_bytes": 223906273
+    }
+  }
+}

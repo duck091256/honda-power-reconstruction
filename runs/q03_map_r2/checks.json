@@ -1,0 +1,1533 @@
+[
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/lock.json",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "locked config SHA-256",
+    "status": "PASS"
+  },
+  {
+    "actual": "verified",
+    "evidence": "run_manifest.json",
+    "expected": "verified",
+    "name": "registered T11/T14 inputs",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q01_lock_r2/run_manifest.json",
+    "expected": true,
+    "name": "T11/T14 identities match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "evidence": "runs/q01_lock_r2/lock.json",
+    "expected": {
+      "cpu": "AMD Ryzen 7 7735HS with Radeon Graphics",
+      "cpu_affinity": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "duckdb": "1.4.3",
+      "host": "duck-ASUS-TUF-Gaming-A15-FA507NV-FA507NV",
+      "java": [
+        "openjdk version \"21.0.13\" 2026-10-20 LTS",
+        "OpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)",
+        "OpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)"
+      ],
+      "logical_cpus": 16,
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43",
+      "pyarrow": "26.0.1",
+      "pyspark": "4.0.1",
+      "python": "3.12.14 (main, Sep  1 2026, 14:16:52) [Clang 22.1.3 ]",
+      "ram_bytes": 15423619072
+    },
+    "name": "machine and engine versions match Q01",
+    "status": "PASS"
+  },
+  {
+    "actual": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q02_fixture_r6",
+    "expected": "74679d541c9eede4df991db18b482f61f3cd044d15fb19f83257fe527b3e0bdc",
+    "name": "fixture used locked configuration",
+    "status": "PASS"
+  },
+  {
+    "actual": "OK",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/worker.log",
+    "expected": "OK",
+    "name": "4 channels build completed",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/measurement.json",
+    "expected": 10040,
+    "name": "4 channels log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": 21431,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables/episodes.parquet",
+    "expected": 21431,
+    "name": "4 exact episode partition of all invalid cells",
+    "status": "PASS"
+  },
+  {
+    "actual": 21866,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables/episode_reasons.parquet",
+    "expected": 21866,
+    "name": "4 all reasons per episode",
+    "status": "PASS"
+  },
+  {
+    "actual": 210336,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables/timeline.parquet",
+    "expected": 210336,
+    "name": "4 per-tick denominator and state accounting",
+    "status": "PASS"
+  },
+  {
+    "actual": 10040,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables/log_links.parquet",
+    "expected": 10040,
+    "name": "4 inclusive/exclusive log overlaps",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "clock_unverified": 311079,
+      "issue_interval": 39708,
+      "missing_minute": 18358,
+      "off_minute_grid": 9347
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": {
+      "clock_unverified": 311079,
+      "issue_interval": 39708,
+      "missing_minute": 18358,
+      "off_minute_grid": 9347
+    },
+    "name": "4 Q01 invalid cells per reason",
+    "status": "PASS"
+  },
+  {
+    "actual": 378492,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 378492,
+    "name": "4 total episode cells",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": true,
+    "name": "4 support keys and exact supported bins",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": true,
+    "name": "4 support bounds",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z11', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z11', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z12', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z12', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z20', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z20', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z24', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 0,
+    "name": "4 continuous support ('H1.Z24', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/worker_result.json",
+    "expected": true,
+    "name": "4 independently verified identities of all sampled continuous channels",
+    "status": "PASS"
+  },
+  {
+    "actual": 841344,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_4/tables",
+    "expected": 841344,
+    "name": "4 channels all input cells accounted for",
+    "status": "PASS"
+  },
+  {
+    "actual": "OK",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/worker.log",
+    "expected": "OK",
+    "name": "16 channels build completed",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/measurement.json",
+    "expected": 39839,
+    "name": "16 channels log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": 64696,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables/episodes.parquet",
+    "expected": 64696,
+    "name": "16 exact episode partition of all invalid cells",
+    "status": "PASS"
+  },
+  {
+    "actual": 65942,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables/episode_reasons.parquet",
+    "expected": 65942,
+    "name": "16 all reasons per episode",
+    "status": "PASS"
+  },
+  {
+    "actual": 210336,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables/timeline.parquet",
+    "expected": 210336,
+    "name": "16 per-tick denominator and state accounting",
+    "status": "PASS"
+  },
+  {
+    "actual": 39839,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables/log_links.parquet",
+    "expected": 39839,
+    "name": "16 inclusive/exclusive log overlaps",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "clock_unverified": 1089789,
+      "issue_interval": 218795,
+      "missing_minute": 101412,
+      "off_minute_grid": 422387
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": {
+      "clock_unverified": 1089789,
+      "issue_interval": 218795,
+      "missing_minute": 101412,
+      "off_minute_grid": 422387
+    },
+    "name": "16 Q01 invalid cells per reason",
+    "status": "PASS"
+  },
+  {
+    "actual": 1832383,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1832383,
+    "name": "16 total episode cells",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": true,
+    "name": "16 support keys and exact supported bins",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": true,
+    "name": "16 support bounds",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z10', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z10', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z11', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z11', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z12', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z12', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z13', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z13', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z14', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z14', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z15', 1514761200000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z16', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 12,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 12,
+    "name": "16 continuous support ('H1.Z16', 1704055500000000, 1704056400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z17', 1514761200000000, 1553783400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z17', 1553787000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z18', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z18', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z19', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z19', 1646088300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z20', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z20', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z21', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z21', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z22', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z22', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z23', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z23', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z24', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z24', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 0,
+    "name": "16 continuous support ('H1.Z25', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 1,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 1,
+    "name": "16 continuous support ('H1.Z25', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/worker_result.json",
+    "expected": true,
+    "name": "16 independently verified identities of all sampled continuous channels",
+    "status": "PASS"
+  },
+  {
+    "actual": 3365376,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_16/tables",
+    "expected": 3365376,
+    "name": "16 channels all input cells accounted for",
+    "status": "PASS"
+  },
+  {
+    "actual": "OK",
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/worker.log",
+    "expected": "OK",
+    "name": "71 channels build completed",
+    "status": "PASS"
+  },
+  {
+    "actual": 126943,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/measurement.json",
+    "expected": 126943,
+    "name": "71 channels log input count",
+    "status": "PASS"
+  },
+  {
+    "actual": 136514,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables/episodes.parquet",
+    "expected": 136514,
+    "name": "71 exact episode partition of all invalid cells",
+    "status": "PASS"
+  },
+  {
+    "actual": 138354,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables/episode_reasons.parquet",
+    "expected": 138354,
+    "name": "71 all reasons per episode",
+    "status": "PASS"
+  },
+  {
+    "actual": 210336,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables/timeline.parquet",
+    "expected": 210336,
+    "name": "71 per-tick denominator and state accounting",
+    "status": "PASS"
+  },
+  {
+    "actual": 126941,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables/log_links.parquet",
+    "expected": 126941,
+    "name": "71 inclusive/exclusive log overlaps",
+    "status": "PASS"
+  },
+  {
+    "actual": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476
+    },
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": {
+      "clock_unverified": 3148629,
+      "issue_interval": 802818,
+      "missing_minute": 270254,
+      "off_minute_grid": 2967476
+    },
+    "name": "71 Q01 invalid cells per reason",
+    "status": "PASS"
+  },
+  {
+    "actual": 7189177,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 7189177,
+    "name": "71 total episode cells",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": true,
+    "name": "71 support keys and exact supported bins",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": true,
+    "name": "71 support bounds",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z10', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z10', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z11', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z11', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z12', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z12', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z13', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z13', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z14', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z14', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z15', 1514761200000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z16', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H1.Z16', 1704055500000000, 1704056400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z17', 1514761200000000, 1553783400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z17', 1553787000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z18', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z18', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z19', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z19', 1646088300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z20', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z20', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z21', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z21', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z22', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z22', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z23', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z23', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z24', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z24', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z25', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 26,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 26,
+    "name": "71 continuous support ('H1.Z25', 1704062700000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z26', 1514763900000000, 1523442600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z26', 1523443500000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z27', 1514761200000000, 1525361400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z27', 1525373100000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z28', 1514761200000000, 1525362300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z28', 1553787000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z29', 1514761200000000, 1543784400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z29', 1583407800000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.Z310', 1593122400000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H1.ZE20', 1669796100000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.T.Z30', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 35,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 35,
+    "name": "71 continuous support ('H2.T.Z30', 1703637000000000, 1703637900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.T.Z31', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H2.T.Z31', 1704035700000000, 1704036600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.T.Z32', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 35,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 35,
+    "name": "71 continuous support ('H2.T.Z32', 1703637000000000, 1703637900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.T.Z33', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H2.T.Z33', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.T.Z34', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.T.Z34', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z311', 1593036000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z35', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 25,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 25,
+    "name": "71 continuous support ('H2.Z35', 1599651000000000, 1599651900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z351', 1600164000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z36', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 25,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 25,
+    "name": "71 continuous support ('H2.Z36', 1599651000000000, 1599651900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z361', 1600164000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z61', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z61', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z62', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z62', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z63', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z63', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z64', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z64', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z65', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z65', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z66', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H2.Z66', 1704039300000000, 1704040200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z67', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 36,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 36,
+    "name": "71 continuous support ('H2.Z67', 1704056400000000, 1704057300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z68', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 36,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 36,
+    "name": "71 continuous support ('H2.Z68', 1704043800000000, 1704044700000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z69', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 18,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 18,
+    "name": "71 continuous support ('H2.Z69', 1703975400000000, 1703976300000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.Z70', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H2.Z70', 1704040200000000, 1704041100000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.ZE64', 1647960300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.ZE65', 1647960300000000, 1702156500000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.ZE66', 1647960300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.ZE67', 1647960300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H2.ZE74', 1647612000000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z312', 1593122400000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z40', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z40', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z41', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z41', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z42', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z42', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z43', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z43', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z44', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z44', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z45', 1517439600000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z45', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z46', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 36,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 36,
+    "name": "71 continuous support ('H3.Z46', 1703806200000000, 1703807100000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 42,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 42,
+    "name": "71 continuous support ('H3.Z47', 1593935100000000, 1593936000000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 29,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 29,
+    "name": "71 continuous support ('H3.Z47', 1704024000000000, 1704024900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z47', 1689921000000000, 1695026700000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 31,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 31,
+    "name": "71 continuous support ('H3.Z48', 1593554400000000, 1593588600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z48', 1703064600000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z48', 1689865200000000, 1695040200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 40,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 40,
+    "name": "71 continuous support ('H3.Z49', 1593647100000000, 1593648000000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 35,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 35,
+    "name": "71 continuous support ('H3.Z49', 1704036600000000, 1704037500000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z49', 1689921000000000, 1695026700000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.Z71', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 31,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 31,
+    "name": "71 continuous support ('H3.Z71', 1703960100000000, 1703966400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.ZE40', 1647594900000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.ZE41', 1647594900000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.ZE43', 1647594900000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H3.ZE44', 1647594900000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H4.Z50', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H4.Z50', 1687527000000000, 1687527900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H4.Z51', 1514761200000000, 1585699200000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 37,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 37,
+    "name": "71 continuous support ('H4.Z51', 1687527000000000, 1687527900000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H4.ZE50', 1647948600000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('H4.ZE51', 1647948600000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.Z81', 1514761200000000, 1543784400000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.Z81', 1583407800000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.Z82', 1514761200000000, 1523442600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.Z82', 1523443500000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.Z84', 1561759200000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": 0,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 0,
+    "name": "71 continuous support ('V.ZE84', 1669218300000000, 1704063600000000)",
+    "status": "PASS"
+  },
+  {
+    "actual": true,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/worker_result.json",
+    "expected": true,
+    "name": "71 independently verified identities of all sampled continuous channels",
+    "status": "PASS"
+  },
+  {
+    "actual": 11906542,
+    "evidence": "/home/duck/Downloads/Vice - Download/StudyWithVKU/StudyWithVKU/ThirdYear/big-data/honda-power-reconstruction/runs/q03_map_r2/level_71/tables",
+    "expected": 11906542,
+    "name": "71 channels all input cells accounted for",
+    "status": "PASS"
+  }
+]
