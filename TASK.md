@@ -1,6 +1,6 @@
 # Sổ công việc
 
-**Hiện tại:** T01–T10 hoàn tất pilot, T11–T15 hoàn tất giai đoạn mở rộng. Báo cáo và gói demo nằm tại runs/t15_delivery.
+**Hiện tại** — T01–T15 và Q01–Q05 hoàn tất. Bản đồ chất lượng có báo cáo và gói demo tại runs/q05_delivery_r2.
 
 | ID | Phụ thuộc | Trạng thái | Việc cần làm | Bằng chứng để hoàn tất |
 | --- | --- | --- | --- | --- |
@@ -55,3 +55,22 @@ Khi hoàn tất một task, thêm một dòng dưới đây với ngày, ID, l�
 - 2026-11-18 · T13 · [Benchmark](runs/t13_scaling_r3/scaling.json) gồm 5 mức và 30 lượt đo. Spark và DuckDB khớp panel và truy vấn ở từng cặp lượt. Hai thử nghiệm trước lưu trạng thái FAILED do phiên bản API DuckDB và biên độ phủ cuối năm, đã điều chỉnh trước lượt chính.
 - 2026-11-18 · T14 · [Run đầy đủ](runs/t14_full/run_manifest.json) đối soát 208.746.721 dòng từ 71 nguồn. Panel có 11.906.542 ô, gồm 4.717.365 ô tham chiếu trên 51 kênh. Quý IV/2023 có 3.487 ca ghép cặp từ 39 kênh. [Kiểm toán độc lập](runs/t14_audit/run_manifest.json) tính lại toàn bộ dự đoán và điểm. [Lượt chạy từ checkpoint](runs/t14_resume_check/run_manifest.json) khớp coverage, predictions và summary từng byte.
 - 2026-11-18 · T15 · [Báo cáo](runs/t15_delivery/report.md) và [ZIP demo](runs/t15_delivery/honda-scale-demo.zip). Giải nén và kiểm qua Streamlit AppTest việc chọn H1.Z20, khoảng che 6 giờ, tháng 11/2023 và bật tham chiếu.
+
+## Bản đồ chất lượng
+
+| ID | Phụ thuộc | Trạng thái | Đầu ra và điều kiện qua |
+| --- | --- | --- | --- |
+| Q01 | T11, T14 | DONE | Khóa nguồn, ba mức toàn lịch sử và ngân sách; đối soát trực tiếp khóa, biên và coverage. |
+| Q02 | Q01 | DONE | Fixture và đáp án tính tay, kiểm cả Spark và DuckDB ở hai thứ tự đầu vào. |
+| Q03 | Q02 | DONE | Bản đồ Parquet trên 4 rồi 71 kênh; bất biến toàn panel và đối chứng trực tiếp theo đợt mỗi kênh. |
+| Q04 | Q03 | DONE | Đo 4, 16, 71 kênh với hai công cụ, xác minh tương đương hoặc bằng chứng chạm ngân sách. |
+| Q05 | Q04 | DONE | Gói demo xác minh từ bản giải nén, báo cáo, dựng lại 71 kênh và so hash nội dung. |
+
+- 2026-11-19 · Q01 · `python -m honda.quality Q01 --run runs/q01_lock_r2 --prior q01_lock`. [Kiểm](runs/q01_lock_r2/checks.json) và [khóa](runs/q01_lock_r2/lock.json) xác nhận 71 tệp, 11.906.542 ô, từng khóa, biên và nhóm coverage. Lượt đầu giữ trạng thái FAILED vì DuckDB không tải được ICU. Lượt hai lấy tháng trực tiếp từ timestamp microsecond UTC.
+
+- 2026-11-19 · Q02 · `python -m honda.quality Q02 --run runs/q02_fixture_r4 --prior q02_fixture_r3`. [Đáp án](runs/q02_fixture_r4/expected.json) và [24 phép kiểm](runs/q02_fixture_r4/checks.json) khớp ở hai công cụ và hai thứ tự dòng. Các lượt trước lưu lỗi tạo thư mục, thứ tự phép toán của nhóm ngày UTC và giới hạn cổng loopback trong sandbox. Spark local chạy qua khi được phép dùng loopback.
+- 2026-11-19 · Q03 lượt 1 · [Log 71 kênh](runs/q03_map/level_71/worker.log) ghi DuckDB chạm giới hạn nội bộ 1 GiB khi gán đợt bằng hai cửa sổ. Mức 4 và 16 qua. Giữ nguyên ngân sách. Thay cách gán đợt bằng một cửa sổ dùng số thứ tự trong từng trạng thái, bỏ bảo toàn thứ tự chèn của DuckDB và kiểm lại Q02 trên cả hai công cụ trước khi chạy lại Q03.
+- 2026-11-19 · Q02 kiểm lại · `python -m honda.quality Q02 --run runs/q02_fixture_r6 --prior q02_fixture_r5`. [24 phép kiểm](runs/q02_fixture_r6/checks.json) khớp sau đổi truy vấn. Lượt r5 phát hiện phép nhân số thứ tự kiểu 32 bit của Spark; sửa sang 64 bit trước khi chạy dữ liệu Honda.
+- 2026-11-19 · Q03 · `python -m honda.quality Q03 --run runs/q03_map_r2 --prior q03_map`. [Đối chiếu 71 kênh](runs/q03_map_r2/level_71/audit.json) khớp 7.189.177 ô loại trong 136,514 đợt và 125 khóa mẫu kiểm trực tiếp. 103,239/136,514 đợt có ít nhất một kênh khác hợp lệ suốt đợt. Mức 4 và 16 cũng đạt.
+- 2026-11-19 · Q04 · `python -m honda.quality Q04 --run runs/q04_benchmark`. [24 lượt](runs/q04_benchmark/measurements.json) trên 4, 16, 71 kênh đều qua. Tất cả hash nội dung và kết quả tra khớp Q03. Ở 71 kênh, dựng bảng trung vị DuckDB 2.958 s và Spark local 17.453 s. [Tổng hợp](runs/q04_benchmark/benchmark.json).
+- 2026-11-19 · Q05 · `python -m honda.quality Q05 --run runs/q05_delivery_r2 --prior q05_delivery`. [Dựng lại 71 kênh](runs/q05_delivery_r2/reproduction.json) khớp cả năm SHA-256 nội dung. [Kiểm gói giải nén](runs/q05_delivery_r2/demo_smoke.log) qua đợt sáu giờ H1.Z11 và tháng không có đợt của H2.T.Z33. Chrome kiểm thêm H1.Z21 ngày 29/04/2023, 04:00–10:00 UTC, đúng 1/24 ô có kênh khác hợp lệ và một liên kết T11 ở chỉ số 36. [Ảnh Chrome](output/playwright/honda-quality-journal.png) · [Báo cáo](runs/q05_delivery_r2/report.md) · [ZIP](runs/q05_delivery_r2/honda-quality-map.zip). Lượt Q05 đầu đã dựng lại đúng nhưng dừng khi PyArrow từ chối danh sách cột dạng tuple, đã sửa trước lượt bàn giao.
