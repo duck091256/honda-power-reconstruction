@@ -1,0 +1,26 @@
+{
+  "pilot": ["H1.Z11", "H1.Z12", "H1.Z20", "H1.Z24"],
+  "levels": [4, 16, 71],
+  "bins_by_reason": {
+    "clock_unverified": 3148629,
+    "issue_interval": 802818,
+    "missing_minute": 270254,
+    "off_minute_grid": 2967476,
+    "valid": 4717365
+  },
+  "threads": 2,
+  "spark_heap": "1024m",
+  "spark_shuffle_partitions": 32,
+  "duckdb_memory_limit": "1024MiB",
+  "tree_rss_limit_bytes": 3221225472,
+  "scratch_limit_bytes": 4294967296,
+  "startup_seconds": 90,
+  "build_seconds": 360,
+  "query_seconds": 60,
+  "sample_seconds": 0.1,
+  "warmups": 1,
+  "repeats": 3,
+  "codec": "snappy",
+  "query_rule": "shortest, longest, and nearest the median bin count; ties ordered by (meter_id, start_us, end_us); deduplicate in that order",
+  "cache": "Fresh engine worker per round, one warm-up round per level/tool, no OS cache eviction and no explicit engine caching of queries. Run engines serially with alternating first engine."
+}
