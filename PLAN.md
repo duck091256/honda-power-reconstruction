@@ -26,3 +26,9 @@ T06 khóa giai đoạn sau 06-03-2023 UTC cho kỳ đánh giá và để riêng 
 
 ## Giai đoạn 2 · T11–T15
 Kiểm kê theo bảng thiết bị Honda, mở rộng xử lý theo công tơ, đối chiếu pilot trước khi đo Spark local và DuckDB. Đo 3/6/12 tháng với 4 công tơ pilot, rồi tăng số kênh ở 12 tháng. T14 xử lý toàn bộ lịch sử P điện có metadata và nhật ký, có checkpoint theo kênh. T15 xuất demo và báo cáo số liệu thực đo.
+
+## Bản đồ chất lượng · Q01–Q05
+
+Khóa panel T14 và khoảng nhật ký T11. Xác minh đợt chất lượng và kênh hỗ trợ trên fixture với hai công cụ, rồi dựng và đối soát theo thứ tự 4, 16 và 71 kênh trên toàn lịch sử từng kênh. Đo dựng bảng và tra chi tiết riêng trên cùng đầu vào. Đóng gói demo theo tháng sau khi so nội dung của lượt tái tạo. Tiêu chí nghiệm thu theo [đề xuất](docs/de_xuat_ban_do_chat_luong.md).
+
+Lượt Q03 đầu gặp giới hạn bộ nhớ nội bộ DuckDB khi tính hai cửa sổ cho 71 kênh. Dùng một cửa sổ xác định đợt bằng hiệu giữa mốc UTC và vị trí trong luồng cùng công tơ/trạng thái. Các phép đếm và ngân sách giữ theo Q01. Spark và DuckDB dùng cùng truy vấn logic và kiểm lại fixture.

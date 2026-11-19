@@ -81,3 +81,28 @@ Trên workspace mới, tạo ba run đối chứng trước T12 nếu chúng ch�
 .venv/bin/python -m honda T06 --run runs/t06_locked --panel-run runs/t05_pilot
 .venv/bin/python -m honda T07 --run runs/t07_honda --eval-run runs/t06_locked
 ```
+
+## Bản đồ chất lượng · Q01–Q05
+
+Nhánh `dev` lưu các lượt chạy và gói demo đã bàn giao. Dùng bản checkout của `dev` để mở demo hoặc chạy lại các bước dưới đây từ panel đã xuất.
+
+Nhánh này đọc panel 15 phút đã xuất ở T14 và khoảng nhật ký đã ánh xạ ở T11. Giữ môi trường Python/Java và biến Spark của giai đoạn mở rộng. Dùng `--inventory` và `--full` nếu hai run nguồn có tên khác.
+
+```bash
+.venv/bin/python -m honda.quality Q01 --run runs/quality_lock
+.venv/bin/python -m honda.quality Q02 --run runs/quality_fixture --lock runs/quality_lock
+.venv/bin/python -m honda.quality Q03 --run runs/quality_map --lock runs/quality_lock --fixture runs/quality_fixture
+.venv/bin/python -m honda.quality Q04 --run runs/quality_benchmark --lock runs/quality_lock --fixture runs/quality_fixture --map runs/quality_map
+.venv/bin/python -m honda.quality Q05 --run runs/quality_delivery --lock runs/quality_lock --fixture runs/quality_fixture --map runs/quality_map --benchmark runs/quality_benchmark
+```
+
+Chạy tuần tự và chọn nhóm tên run mới khi tái tạo. Mỗi bước kiểm SHA-256 của đầu vào đã đăng ký và ghi `checks.json`. Q04 sử dụng hai luồng cho mỗi công cụ và ghi thời gian, tài nguyên, chi tiết truy vấn cùng bằng chứng đối soát. Q05 dựng lại 71 kênh trong thư mục mới trước khi đóng ZIP.
+
+Bật bản đồ đã bàn giao từ thư mục dự án. Cài phụ thuộc trong cùng môi trường Python dùng để chạy Streamlit.
+
+```bash
+uv pip install --python .venv/bin/python -r runs/q05_delivery_r2/bundle/requirements.txt
+.venv/bin/python -m streamlit run runs/q05_delivery_r2/bundle/app.py --server.address 127.0.0.1 --server.port 8519 --browser.gatherUsageStats=false
+```
+
+Trong gói đã giải nén, `python verify_demo.py` kiểm SHA-256 và chạy thử một đợt thực cùng một tháng không có đợt. `python -m streamlit run app.py --server.address 127.0.0.1` mở bản đồ từ các tệp đi kèm. Xem [đề xuất và tiêu chí nghiệm thu](docs/de_xuat_ban_do_chat_luong.md).
